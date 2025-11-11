@@ -1,0 +1,8 @@
+{
+  "message_code": "adult",
+  "message_label": "Adult Content",
+  "min_age": 18,
+  "title": "Age Verification",
+  "message": "You must be at least {age} years old to access this site. By entering, you confirm that you meet this age requirement.",
+  "legal": "This content is restricted to adults only. Access by minors is prohibited."
+}

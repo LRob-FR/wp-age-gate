@@ -1,0 +1,289 @@
+# Copyright (C) 2025 LRob
+# This file is distributed under the same license as the LRob - Age Gate plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LRob Age Gate 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lrob-age-gate\n"
+"Last-Translator: ChatGPT <translations@openai.com>\n"
+"Language-Team: Dansk <da@lrob.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-10T16:25:09+00:00\n"
+"PO-Revision-Date: 2025-11-10 19:40+0100\n"
+"Language: da_DK\n"
+"X-Generator: GPT-5\n"
+"X-Domain: lrob-age-gate\n"
+
+#. Plugin Name of the plugin
+msgid "LRob - Age Gate"
+msgstr "LRob - Aldersverifikation"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.lrob.fr/"
+msgstr "https://www.lrob.fr/"
+
+#. Description of the plugin
+msgid "Age verification gate with configurable presets for alcohol, adult content, and age-restricted products."
+msgstr "Aldersverifikationssystem med konfigurerbare forudindstillinger til alkohol, voksenindhold og aldersbegrænsede produkter."
+
+#. Author of the plugin
+msgid "LRob"
+msgstr "LRob"
+
+msgid "Age Gate"
+msgstr "Aldersverifikation"
+
+msgid "General Settings"
+msgstr "Generelle indstillinger"
+
+msgid "Content & Messages"
+msgstr "Indhold og beskeder"
+
+msgid "Appearance"
+msgstr "Udseende"
+
+msgid "Tools"
+msgstr "Værktøjer"
+
+msgid "Enable Age Gate"
+msgstr "Aktivér aldersverifikation"
+
+msgid "Cookie duration (days)"
+msgstr "Cookie-varighed (dage)"
+
+msgid "Quick Load"
+msgstr "Hurtig indlæsning"
+
+msgid "Minimum age"
+msgstr "Minimumsalder"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Message"
+msgstr "Besked"
+
+msgid "Legal notice"
+msgstr "Juridisk meddelelse"
+
+msgid "Accept button"
+msgstr "Knap Accepter"
+
+msgid "Decline button"
+msgstr "Knap Afvis"
+
+msgid "Decline redirect URL"
+msgstr "Omdirigerings-URL ved afvisning"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Auto (follows system)"
+msgstr "Automatisk (følger systemet)"
+
+msgid "Light"
+msgstr "Lyst"
+
+msgid "Dark"
+msgstr "Mørkt"
+
+msgid "Custom"
+msgstr "Brugerdefineret"
+
+msgid "Background"
+msgstr "Baggrund"
+
+msgid "Text color"
+msgstr "Tekstfarve"
+
+msgid "Accept bg"
+msgstr "Baggrund for Accepter-knap"
+
+msgid "Accept text"
+msgstr "Tekst for Accepter-knap"
+
+msgid "Decline bg"
+msgstr "Baggrund for Afvis-knap"
+
+msgid "Decline text"
+msgstr "Tekst for Afvis-knap"
+
+msgid "Border radius (px)"
+msgstr "Kanteradius (px)"
+
+msgid "Backdrop blur (px)"
+msgstr "Baggrundssløring (px)"
+
+msgid "Invalidate all cookies"
+msgstr "Gør alle cookies ugyldige"
+
+msgid "Configure age verification behavior."
+msgstr "Konfigurer aldersverifikationens opførsel."
+
+msgid "Select a preset to quick-load a message template, then customize the fields as needed."
+msgstr "Vælg en forudindstilling for at indlæse en beskedskabelon, og tilpas derefter felterne efter behov."
+
+msgid "Configuration Required:"
+msgstr "Konfiguration påkrævet:"
+
+msgid "Please select a preset or configure all content fields below."
+msgstr "Vælg en forudindstilling, eller konfigurer alle indholdsfelter nedenfor."
+
+msgid "Enable"
+msgstr "Aktivér"
+
+msgid "-- Select Message --"
+msgstr "-- Vælg besked --"
+
+msgid "-- Country --"
+msgstr "-- Land --"
+
+msgid "Load Preset"
+msgstr "Indlæs forudindstilling"
+
+msgid "Message template is universal. Country is used for decline URL only."
+msgstr "Beskedskabelonen er universel. Land anvendes kun til afvisnings-URL."
+
+msgid "Legal Disclaimer:"
+msgstr "Juridisk ansvarsfraskrivelse:"
+
+msgid "Laws vary by jurisdiction and change over time. You are responsible for ensuring compliance with your local regulations. Always consult legal counsel and adapt messages to your specific requirements."
+msgstr "Lovgivning varierer afhængigt af jurisdiktion og kan ændre sig over tid. Du er selv ansvarlig for at overholde lokale regler. Kontakt altid juridisk rådgivning og tilpas beskederne til dine specifikke behov."
+
+msgid "Use {age} for minimum age."
+msgstr "Brug {age} for minimumsalder."
+
+msgid "Unauthorized"
+msgstr "Uautoriseret"
+
+msgid "Missing parameters"
+msgstr "Manglende parametre"
+
+msgid "I confirm I am of legal age"
+msgstr "Jeg bekræfter, at jeg har nået den lovlige alder"
+
+msgid "I am not of legal age"
+msgstr "Jeg har ikke nået den lovlige alder"
+
+msgid "Adult Content"
+msgstr "Voksenindhold"
+
+msgid "Age Verification"
+msgstr "Aldersverifikation"
+
+msgid "You must be at least {age} years old to access this site. By entering, you confirm that you meet this age requirement."
+msgstr "Du skal være mindst {age} år gammel for at få adgang til denne side. Ved at gå ind bekræfter du, at du opfylder alderskravet."
+
+msgid "This content is restricted to adults ({age}+) only. Access by minors (under {age} år) is prohibited."
+msgstr "Dette indhold er kun for voksne (over {age} år) ({age}+). Adgang for mindreårige (under {age} år) er forbudt."
+
+msgid "Alcohol"
+msgstr "Alkohol"
+
+msgid "The sale of alcohol to minors (under {age} år) is prohibited. Alcohol abuse is dangerous for your health."
+msgstr "Salg af alkohol til mindreårige (under {age} år) er forbudt. Misbrug af alkohol er farligt for helbredet."
+
+msgid "Cannabis / CBD"
+msgstr "Cannabis / CBD"
+
+msgid "Access to cannabis-related content is restricted to adults ({age}+) where permitted by law."
+msgstr "Adgang til indhold relateret til cannabis er begrænset til voksne ({age}+), hvor det er tilladt ved lov."
+
+msgid "Firearms"
+msgstr "Skydevåben"
+
+msgid "Access to firearm-related content is restricted to adults ({age}+) of legal age. Always comply with local laws and regulations."
+msgstr "Adgang til indhold relateret til skydevåben er begrænset til voksne ({age}+). Overhold altid lokale love og regler."
+
+msgid "Gambling"
+msgstr "Spil om penge"
+
+msgid "Gambling is prohibited for minors (under {age} år) and may be subject to licensing rules. Gamble responsibly."
+msgstr "Spil om penge er forbudt for mindreårige under {age} år (under {age} år) og kan være underlagt licensregler. Spil ansvarligt."
+
+msgid "Gaming"
+msgstr "Spil"
+
+msgid "Online gaming content may be restricted for minors (under {age} år) (e.g., playtime limits, age ratings, loot box rules)."
+msgstr "Online spilindhold kan være begrænset for mindreårige under {age} år (under {age} år) (f.eks. tidsbegrænsninger, aldersmærkninger, regler for lootbokse)."
+
+msgid "Medication"
+msgstr "Medicin"
+
+msgid "This content concerns medication. Some products are restricted to adults ({age}+) and require prescriptions."
+msgstr "Dette indhold vedrører medicin. Nogle produkter er kun tilgængelige for voksne ({age}+) og kræver recept."
+
+msgid "Tobacco"
+msgstr "Tobak"
+
+msgid "The sale of tobacco to minors (under {age} år) is prohibited. Smoking harms your health."
+msgstr "Salg af tobak til mindreårige (under {age} år) er forbudt. Rygning skader dit helbred."
+
+msgid "Violent or Sensitive Content"
+msgstr "Voldeligt eller følsomt indhold"
+
+msgid "This content may include scenes of violence or sensitive material not suitable for minors (under {age} år)."
+msgstr "Dette indhold kan indeholde voldelige eller følsomme scener, som ikke er egnet til mindreårige (under {age} år)."
+
+msgid "Age Verification Required"
+msgstr "Aldersverifikation påkrævet"
+
+msgid "Please select a preset or configure your age verification message."
+msgstr "Vælg en forudindstilling, eller konfigurer din aldersverifikationsbesked."
+
+msgid "Configure your legal notice."
+msgstr "Konfigurer din juridiske meddelelse."
+
+msgid "All age verification cookies have been invalidated. Users will be prompted again."
+msgstr "Alle cookies til aldersverifikation er blevet ugyldige. Brugere vil blive bedt om at bekræfte igen."
+
+msgid "General"
+msgstr "Generelt"
+
+msgid "Content"
+msgstr "Indhold"
+
+msgid "Please select a preset or configure all content fields."
+msgstr "Vælg en forudindstilling, eller konfigurer alle indholdsfelter."
+
+msgid "Live Preview"
+msgstr "Live-forhåndsvisning"
+
+msgid "Preview updates as you modify settings."
+msgstr "Se opdateringer, mens du ændrer indstillinger."
+
+msgid "Testing:"
+msgstr "Test:"
+
+msgid "For real-world testing, visit your website in a private/incognito browsing session."
+msgstr "For reelle tests, besøg dit websted i en privat/incognito-session."
+
+msgid "Developed with"
+msgstr "Udviklet med"
+
+msgid "by"
+msgstr "af"
+
+msgid "LRob, WordPress specialist"
+msgstr "LRob, WordPress-specialist"
+
+
+msgid "Warning:"
+msgstr "Advarsel:"
+
+msgid "This will invalidate all existing user validations. All visitors will see the age gate again."
+msgstr "Dette vil ugyldiggøre alle eksisterende bekræftelser. Alle besøgende vil se aldersverifikationen igen."
+
+msgid "Are you sure? This will force all users to validate their age again."
+msgstr "Er du sikker? Dette vil tvinge alle brugere til at bekræfte deres alder igen."
+
+msgid "Invalidate All Cookies"
+msgstr "Gør alle cookies ugyldige"
+
+msgid "\"Auto\" theme using detected theme colors. Preview may vary from frontend."
+msgstr "Temaet \"Automatisk\" bruger de registrerede systemfarver. Forhåndsvisningen kan afvige fra den endelige visning."
+
+msgid "\"Auto\" theme shown with fallback colors. Theme colors not detected."
+msgstr "Temaet \"Automatisk\" vises med standardfarver. Temaets farver kunne ikke registreres."

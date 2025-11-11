@@ -1,0 +1,8 @@
+{
+  "message_code": "tobacco",
+  "message_label": "Tobacco",
+  "min_age": 18,
+  "title": "Age Verification",
+  "message": "You must be at least {age} years old to access this site. By entering, you confirm that you meet this age requirement.",
+  "legal": "The sale of tobacco to minors is prohibited. Smoking harms your health."
+}

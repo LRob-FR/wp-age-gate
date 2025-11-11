@@ -1,0 +1,289 @@
+# Copyright (C) 2025 LRob
+# This file is distributed under the same license as the LRob - Age Gate plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LRob Age Gate 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lrob-age-gate\n"
+"Last-Translator: ChatGPT <translations@openai.com>\n"
+"Language-Team: Suomi <fi@lrob.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-10T16:25:09+00:00\n"
+"PO-Revision-Date: 2025-11-10 19:50+0100\n"
+"Language: fi_FI\n"
+"X-Generator: GPT-5\n"
+"X-Domain: lrob-age-gate\n"
+
+#. Plugin Name of the plugin
+msgid "LRob - Age Gate"
+msgstr "LRob - Ikävarmistus"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.lrob.fr/"
+msgstr "https://www.lrob.fr/"
+
+#. Description of the plugin
+msgid "Age verification gate with configurable presets for alcohol, adult content, and age-restricted products."
+msgstr "Ikävarmistusjärjestelmä, jossa on mukautettavat asetukset alkoholia, aikuisviihdettä ja ikärajoitettuja tuotteita varten."
+
+#. Author of the plugin
+msgid "LRob"
+msgstr "LRob"
+
+msgid "Age Gate"
+msgstr "Ikävarmistus"
+
+msgid "General Settings"
+msgstr "Yleiset asetukset"
+
+msgid "Content & Messages"
+msgstr "Sisältö ja viestit"
+
+msgid "Appearance"
+msgstr "Ulkoasu"
+
+msgid "Tools"
+msgstr "Työkalut"
+
+msgid "Enable Age Gate"
+msgstr "Ota ikävarmistus käyttöön"
+
+msgid "Cookie duration (days)"
+msgstr "Evästeen voimassaoloaika (päivää)"
+
+msgid "Quick Load"
+msgstr "Pikalataus"
+
+msgid "Minimum age"
+msgstr "Vähimmäisikä"
+
+msgid "Title"
+msgstr "Otsikko"
+
+msgid "Message"
+msgstr "Viesti"
+
+msgid "Legal notice"
+msgstr "Laillinen huomautus"
+
+msgid "Accept button"
+msgstr "Hyväksy-painike"
+
+msgid "Decline button"
+msgstr "Hylkää-painike"
+
+msgid "Decline redirect URL"
+msgstr "Uudelleenohjausosoite hylkäämisen jälkeen"
+
+msgid "Theme"
+msgstr "Teema"
+
+msgid "Auto (follows system)"
+msgstr "Automaattinen (seuraa järjestelmää)"
+
+msgid "Light"
+msgstr "Vaalea"
+
+msgid "Dark"
+msgstr "Tumma"
+
+msgid "Custom"
+msgstr "Mukautettu"
+
+msgid "Background"
+msgstr "Tausta"
+
+msgid "Text color"
+msgstr "Tekstin väri"
+
+msgid "Accept bg"
+msgstr "Hyväksy-painikkeen tausta"
+
+msgid "Accept text"
+msgstr "Hyväksy-painikkeen teksti"
+
+msgid "Decline bg"
+msgstr "Hylkää-painikkeen tausta"
+
+msgid "Decline text"
+msgstr "Hylkää-painikkeen teksti"
+
+msgid "Border radius (px)"
+msgstr "Reunan säde (px)"
+
+msgid "Backdrop blur (px)"
+msgstr "Taustan sumennus (px)"
+
+msgid "Invalidate all cookies"
+msgstr "Mitätöi kaikki evästeet"
+
+msgid "Configure age verification behavior."
+msgstr "Määritä ikävarmistuksen toiminta."
+
+msgid "Select a preset to quick-load a message template, then customize the fields as needed."
+msgstr "Valitse esiasetus ladataksesi viestipohjan ja mukauta kentät tarpeen mukaan."
+
+msgid "Configuration Required:"
+msgstr "Määritys vaaditaan:"
+
+msgid "Please select a preset or configure all content fields below."
+msgstr "Valitse esiasetus tai määritä kaikki sisältökentät alla."
+
+msgid "Enable"
+msgstr "Ota käyttöön"
+
+msgid "-- Select Message --"
+msgstr "-- Valitse viesti --"
+
+msgid "-- Country --"
+msgstr "-- Maa --"
+
+msgid "Load Preset"
+msgstr "Lataa esiasetus"
+
+msgid "Message template is universal. Country is used for decline URL only."
+msgstr "Viestipohja on yleinen. Maata käytetään vain hylkäysosoitteessa."
+
+msgid "Legal Disclaimer:"
+msgstr "Laillinen vastuuvapauslauseke:"
+
+msgid "Laws vary by jurisdiction and change over time. You are responsible for ensuring compliance with your local regulations. Always consult legal counsel and adapt messages to your specific requirements."
+msgstr "Lainsäädäntö vaihtelee alueittain ja muuttuu ajan myötä. Olet vastuussa paikallisten määräysten noudattamisesta. Ota tarvittaessa yhteyttä lakiasiantuntijaan ja mukauta viestit tarpeidesi mukaan."
+
+msgid "Use {age} for minimum age."
+msgstr "Käytä {age} vähimmäisikänä."
+
+msgid "Unauthorized"
+msgstr "Ei oikeuksia"
+
+msgid "Missing parameters"
+msgstr "Puuttuvat parametrit"
+
+msgid "I confirm I am of legal age"
+msgstr "Vahvistan olevani täysi-ikäinen lain mukaan"
+
+msgid "I am not of legal age"
+msgstr "En ole täysi-ikäinen"
+
+msgid "Adult Content"
+msgstr "Aikuissisältö"
+
+msgid "Age Verification"
+msgstr "Ikävarmistus"
+
+msgid "You must be at least {age} years old to access this site. By entering, you confirm that you meet this age requirement."
+msgstr "Sinun on oltava vähintään {age}-vuotias päästäksesi tälle sivustolle. Sivustolle siirtymällä vahvistat täyttäväsi tämän ikävaatimuksen."
+
+msgid "This content is restricted to adults ({age}+) only. Access by minors (under {age}) is prohibited."
+msgstr "Tämä sisältö on tarkoitettu vain aikuisille (yli {age}-vuotiaille). Alaikäisiltä pääsy on kielletty."
+
+msgid "Alcohol"
+msgstr "Alkoholi"
+
+msgid "The sale of alcohol to minors (under {age}) is prohibited. Alcohol abuse is dangerous for your health."
+msgstr "Alkoholin myynti alle {age}-vuotiaille on kielletty. Alkoholin väärinkäyttö on haitallista terveydelle."
+
+msgid "Cannabis / CBD"
+msgstr "Kannabis / CBD"
+
+msgid "Access to cannabis-related content is restricted to adults ({age}+) where permitted by law."
+msgstr "Pääsy kannabista koskevaan sisältöön on rajoitettu yli {age}-vuotiaille, jos laki sen sallii."
+
+msgid "Firearms"
+msgstr "Ampuma-aseet"
+
+msgid "Access to firearm-related content is restricted to adults ({age}+) of legal age. Always comply with local laws and regulations."
+msgstr "Pääsy ampuma-aseita koskevaan sisältöön on rajoitettu yli {age}-vuotiaille. Noudata aina paikallisia lakeja ja määräyksiä."
+
+msgid "Gambling"
+msgstr "Rahapelit"
+
+msgid "Gambling is prohibited for minors (under {age}) and may be subject to licensing rules. Gamble responsibly."
+msgstr "Rahapelaaminen on kielletty alle {age}-vuotiailta ja voi olla luvanvaraista. Pelaa vastuullisesti."
+
+msgid "Gaming"
+msgstr "Pelaaminen"
+
+msgid "Online gaming content may be restricted for minors (under {age}) (e.g., playtime limits, age ratings, loot box rules)."
+msgstr "Verkkopelaamisen sisältö voi olla rajoitettu alaikäisille (esimerkiksi peliaikarajoitukset, ikärajat, loot box -säännöt)."
+
+msgid "Medication"
+msgstr "Lääkkeet"
+
+msgid "This content concerns medication. Some products are restricted to adults ({age}+) and require prescriptions."
+msgstr "Tämä sisältö koskee lääkkeitä. Osa tuotteista on tarkoitettu vain aikuisille (yli {age}-vuotiaille) ja vaatii reseptin."
+
+msgid "Tobacco"
+msgstr "Tupakka"
+
+msgid "The sale of tobacco to minors (under {age}) is prohibited. Smoking harms your health."
+msgstr "Tupakan myynti alaikäisille on kielletty. Tupakointi vahingoittaa terveyttäsi."
+
+msgid "Violent or Sensitive Content"
+msgstr "Väkivaltainen tai arkaluonteinen sisältö"
+
+msgid "This content may include scenes of violence or sensitive material not suitable for minors (under {age})."
+msgstr "Tämä sisältö voi sisältää väkivaltakohtauksia tai arkaluonteista materiaalia, joka ei sovi alaikäisille."
+
+msgid "Age Verification Required"
+msgstr "Ikävarmistus vaaditaan"
+
+msgid "Please select a preset or configure your age verification message."
+msgstr "Valitse esiasetus tai määritä oma ikävarmistusviestisi."
+
+msgid "Configure your legal notice."
+msgstr "Määritä laillinen huomautuksesi."
+
+msgid "All age verification cookies have been invalidated. Users will be prompted again."
+msgstr "Kaikki ikävarmistusevästeet on mitätöity. Käyttäjiä pyydetään vahvistamaan ikänsä uudelleen."
+
+msgid "General"
+msgstr "Yleinen"
+
+msgid "Content"
+msgstr "Sisältö"
+
+msgid "Please select a preset or configure all content fields."
+msgstr "Valitse esiasetus tai määritä kaikki sisältökentät."
+
+msgid "Live Preview"
+msgstr "Esikatselu reaaliajassa"
+
+msgid "Preview updates as you modify settings."
+msgstr "Esikatsele muutoksia, kun säädät asetuksia."
+
+msgid "Testing:"
+msgstr "Testaus:"
+
+msgid "For real-world testing, visit your website in a private/incognito browsing session."
+msgstr "Todellista testausta varten käy sivustollasi yksityisessä/incognito-ikkunassa."
+
+msgid "Developed with"
+msgstr "Kehitetty rakkaudella"
+
+msgid "by"
+msgstr "av"
+
+msgid "LRob, WordPress specialist"
+msgstr "LRob, WordPress-asiantuntija"
+
+
+msgid "Warning:"
+msgstr "Varoitus:"
+
+msgid "This will invalidate all existing user validations. All visitors will see the age gate again."
+msgstr "Tämä mitätöi kaikki aiemmat vahvistukset. Kaikki kävijät näkevät ikävarmistuksen uudelleen."
+
+msgid "Are you sure? This will force all users to validate their age again."
+msgstr "Oletko varma? Tämä pakottaa kaikki käyttäjät vahvistamaan ikänsä uudelleen."
+
+msgid "Invalidate All Cookies"
+msgstr "Mitätöi kaikki evästeet"
+
+msgid "\"Auto\" theme using detected theme colors. Preview may vary from frontend."
+msgstr "Automaattinen teema käyttää havaittuja järjestelmävärejä. Esikatselu saattaa poiketa lopullisesta näkymästä."
+
+msgid "\"Auto\" theme shown with fallback colors. Theme colors not detected."
+msgstr "Automaattinen teema näytetään varaväreillä. Teeman värejä ei havaittu."

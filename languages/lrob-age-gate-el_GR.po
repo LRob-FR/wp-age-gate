@@ -1,0 +1,289 @@
+# Copyright (C) 2025 LRob
+# This file is distributed under the same license as the LRob - Age Gate plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LRob Age Gate 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lrob-age-gate\n"
+"Last-Translator: ChatGPT <translations@openai.com>\n"
+"Language-Team: Ελληνικά <el@lrob.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-10T16:25:09+00:00\n"
+"PO-Revision-Date: 2025-11-10 20:40+0200\n"
+"Language: el_GR\n"
+"X-Generator: GPT-5\n"
+"X-Domain: lrob-age-gate\n"
+
+#. Plugin Name of the plugin
+msgid "LRob - Age Gate"
+msgstr "LRob - Έλεγχος Ηλικίας"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.lrob.fr/"
+msgstr "https://www.lrob.fr/"
+
+#. Description of the plugin
+msgid "Age verification gate with configurable presets for alcohol, adult content, and age-restricted products."
+msgstr "Σύστημα επαλήθευσης ηλικίας με ρυθμιζόμενες προεπιλογές για αλκοόλ, περιεχόμενο ενηλίκων και προϊόντα με περιορισμό ηλικίας."
+
+#. Author of the plugin
+msgid "LRob"
+msgstr "LRob"
+
+msgid "Age Gate"
+msgstr "Έλεγχος ηλικίας"
+
+msgid "General Settings"
+msgstr "Γενικές ρυθμίσεις"
+
+msgid "Content & Messages"
+msgstr "Περιεχόμενο και μηνύματα"
+
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+msgid "Tools"
+msgstr "Εργαλεία"
+
+msgid "Enable Age Gate"
+msgstr "Ενεργοποίηση ελέγχου ηλικίας"
+
+msgid "Cookie duration (days)"
+msgstr "Διάρκεια cookie (ημέρες)"
+
+msgid "Quick Load"
+msgstr "Γρήγορη φόρτωση"
+
+msgid "Minimum age"
+msgstr "Ελάχιστη ηλικία"
+
+msgid "Title"
+msgstr "Τίτλος"
+
+msgid "Message"
+msgstr "Μήνυμα"
+
+msgid "Legal notice"
+msgstr "Νομική σημείωση"
+
+msgid "Accept button"
+msgstr "Κουμπί Αποδοχής"
+
+msgid "Decline button"
+msgstr "Κουμπί Απόρριψης"
+
+msgid "Decline redirect URL"
+msgstr "Διεύθυνση URL ανακατεύθυνσης μετά την απόρριψη"
+
+msgid "Theme"
+msgstr "Θέμα"
+
+msgid "Auto (follows system)"
+msgstr "Αυτόματο (σύμφωνα με το σύστημα)"
+
+msgid "Light"
+msgstr "Φωτεινό"
+
+msgid "Dark"
+msgstr "Σκοτεινό"
+
+msgid "Custom"
+msgstr "Προσαρμοσμένο"
+
+msgid "Background"
+msgstr "Φόντο"
+
+msgid "Text color"
+msgstr "Χρώμα κειμένου"
+
+msgid "Accept bg"
+msgstr "Φόντο Αποδοχής"
+
+msgid "Accept text"
+msgstr "Κείμενο Αποδοχής"
+
+msgid "Decline bg"
+msgstr "Φόντο Απόρριψης"
+
+msgid "Decline text"
+msgstr "Κείμενο Απόρριψης"
+
+msgid "Border radius (px)"
+msgstr "Καμπυλότητα γωνιών (px)"
+
+msgid "Backdrop blur (px)"
+msgstr "Θόλωση φόντου (px)"
+
+msgid "Invalidate all cookies"
+msgstr "Ακύρωση όλων των cookies"
+
+msgid "Configure age verification behavior."
+msgstr "Ρυθμίστε τη λειτουργία του ελέγχου ηλικίας."
+
+msgid "Select a preset to quick-load a message template, then customize the fields as needed."
+msgstr "Επιλέξτε μια προεπιλογή για γρήγορη φόρτωση προτύπου μηνύματος και προσαρμόστε τα πεδία όπως απαιτείται."
+
+msgid "Configuration Required:"
+msgstr "Απαιτείται ρύθμιση:"
+
+msgid "Please select a preset or configure all content fields below."
+msgstr "Επιλέξτε μια προεπιλογή ή ρυθμίστε όλα τα πεδία περιεχομένου παρακάτω."
+
+msgid "Enable"
+msgstr "Ενεργοποίηση"
+
+msgid "-- Select Message --"
+msgstr "-- Επιλογή μηνύματος --"
+
+msgid "-- Country --"
+msgstr "-- Χώρα --"
+
+msgid "Load Preset"
+msgstr "Φόρτωση προεπιλογής"
+
+msgid "Message template is universal. Country is used for decline URL only."
+msgstr "Το πρότυπο μηνύματος είναι καθολικό. Η χώρα χρησιμοποιείται μόνο για τη διεύθυνση ανακατεύθυνσης μετά την απόρριψη."
+
+msgid "Legal Disclaimer:"
+msgstr "Νομική αποποίηση ευθύνης:"
+
+msgid "Laws vary by jurisdiction and change over time. You are responsible for ensuring compliance with your local regulations. Always consult legal counsel and adapt messages to your specific requirements."
+msgstr "Οι νόμοι διαφέρουν ανάλογα με τη δικαιοδοσία και ενδέχεται να αλλάξουν με την πάροδο του χρόνου. Είστε υπεύθυνοι για τη συμμόρφωση με τους τοπικούς κανονισμούς. Συμβουλευτείτε νομικό σύμβουλο και προσαρμόστε τα μηνύματα στις δικές σας ανάγκες."
+
+msgid "Use {age} for minimum age."
+msgstr "Χρησιμοποιήστε {age} για την ελάχιστη ηλικία."
+
+msgid "Unauthorized"
+msgstr "Μη εξουσιοδοτημένο"
+
+msgid "Missing parameters"
+msgstr "Λείπουν παράμετροι"
+
+msgid "I confirm I am of legal age"
+msgstr "Επιβεβαιώνω ότι είμαι ενήλικος σύμφωνα με τον νόμο"
+
+msgid "I am not of legal age"
+msgstr "Δεν είμαι ενήλικος"
+
+msgid "Adult Content"
+msgstr "Περιεχόμενο για ενήλικες ({age}+)"
+
+msgid "Age Verification"
+msgstr "Επαλήθευση ηλικίας"
+
+msgid "You must be at least {age} years old to access this site. By entering, you confirm that you meet this age requirement."
+msgstr "Πρέπει να είστε τουλάχιστον {age} ετών για να αποκτήσετε πρόσβαση σε αυτόν τον ιστότοπο. Με την είσοδό σας επιβεβαιώνετε ότι πληροίτε αυτήν την προϋπόθεση ηλικίας."
+
+msgid "This content is restricted to adults ({age}+) only. Access by minors κάτω των {age} ετών is prohibited."
+msgstr "Αυτό το περιεχόμενο προορίζεται αποκλειστικά για ενήλικες ({age}+). Η πρόσβαση ανηλίκων απαγορεύεται."
+
+msgid "Alcohol"
+msgstr "Αλκοόλ"
+
+msgid "The sale of alcohol to minors κάτω των {age} ετών is prohibited. Alcohol abuse is dangerous for your health."
+msgstr "Η πώληση αλκοόλ σε ανηλίκους κάτω των {age} ετών απαγορεύεται. Η κατάχρηση αλκοόλ είναι επικίνδυνη για την υγεία σας."
+
+msgid "Cannabis / CBD"
+msgstr "Κάνναβη / CBD"
+
+msgid "Access to cannabis-related content is restricted to adults ({age}+) where permitted by law."
+msgstr "Η πρόσβαση σε περιεχόμενο που σχετίζεται με την κάνναβη επιτρέπεται μόνο σε ενήλικες ({age}+), όπου το επιτρέπει ο νόμος."
+
+msgid "Firearms"
+msgstr "Πυροβόλα όπλα"
+
+msgid "Access to firearm-related content is restricted to adults ({age}+) of legal age. Always comply with local laws and regulations."
+msgstr "Η πρόσβαση σε περιεχόμενο σχετικό με πυροβόλα όπλα επιτρέπεται μόνο σε ενήλικες ({age}+). Να τηρείτε πάντα τους τοπικούς νόμους και κανονισμούς."
+
+msgid "Gambling"
+msgstr "Τυχερά παιχνίδια"
+
+msgid "Gambling is prohibited for minors κάτω των {age} ετών and may be subject to licensing rules. Gamble responsibly."
+msgstr "Τα τυχερά παιχνίδια απαγορεύονται στους ανηλίκους κάτω των {age} ετών και ενδέχεται να υπόκεινται σε κανονισμούς αδειοδότησης. Παίζετε υπεύθυνα."
+
+msgid "Gaming"
+msgstr "Παιχνίδια"
+
+msgid "Online gaming content may be restricted for minors κάτω των {age} ετών (e.g., playtime limits, age ratings, loot box rules)."
+msgstr "Το περιεχόμενο διαδικτυακών παιχνιδιών ενδέχεται να είναι περιορισμένο για ανηλίκους κάτω των {age} ετών κάτω των {age} ετών (π.χ. χρονικά όρια, ηλικιακές κατηγορίες, κανόνες για loot boxes)."
+
+msgid "Medication"
+msgstr "Φάρμακα"
+
+msgid "This content concerns medication. Some products are restricted to adults ({age}+) and require prescriptions."
+msgstr "Αυτό το περιεχόμενο αφορά φάρμακα. Ορισμένα προϊόντα προορίζονται μόνο για ενήλικες (άνω των {age} ετών) ({age}+) και απαιτούν ιατρική συνταγή."
+
+msgid "Tobacco"
+msgstr "Καπνός"
+
+msgid "The sale of tobacco to minors κάτω των {age} ετών is prohibited. Smoking harms your health."
+msgstr "Η πώληση καπνού σε ανηλίκους κάτω των {age} ετών απαγορεύεται. Το κάπνισμα βλάπτει σοβαρά την υγεία σας."
+
+msgid "Violent or Sensitive Content"
+msgstr "Βίαιο ή ευαίσθητο περιεχόμενο"
+
+msgid "This content may include scenes of violence or sensitive material not suitable for minors κάτω των {age} ετών."
+msgstr "Αυτό το περιεχόμενο μπορεί να περιλαμβάνει σκηνές βίας ή ευαίσθητο υλικό ακατάλληλο για ανηλίκους κάτω των {age} ετών κάτω των {age} ετών."
+
+msgid "Age Verification Required"
+msgstr "Απαιτείται επαλήθευση ηλικίας"
+
+msgid "Please select a preset or configure your age verification message."
+msgstr "Επιλέξτε μια προεπιλογή ή ρυθμίστε το μήνυμα επαλήθευσης ηλικίας σας."
+
+msgid "Configure your legal notice."
+msgstr "Ρυθμίστε τη νομική σας σημείωση."
+
+msgid "All age verification cookies have been invalidated. Users will be prompted again."
+msgstr "Όλα τα cookies επαλήθευσης ηλικίας έχουν ακυρωθεί. Οι χρήστες θα ερωτηθούν ξανά."
+
+msgid "General"
+msgstr "Γενικά"
+
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+msgid "Please select a preset or configure all content fields."
+msgstr "Επιλέξτε μια προεπιλογή ή ρυθμίστε όλα τα πεδία περιεχομένου."
+
+msgid "Live Preview"
+msgstr "Ζωντανή προεπισκόπηση"
+
+msgid "Preview updates as you modify settings."
+msgstr "Δείτε τις αλλαγές σε πραγματικό χρόνο καθώς τροποποιείτε τις ρυθμίσεις."
+
+msgid "Testing:"
+msgstr "Δοκιμή:"
+
+msgid "For real-world testing, visit your website in a private/incognito browsing session."
+msgstr "Για δοκιμή σε πραγματικές συνθήκες, επισκεφθείτε τον ιστότοπό σας σε ιδιωτική/ανώνυμη περιήγηση."
+
+msgid "Developed with"
+msgstr "Αναπτύχθηκε με"
+
+msgid "by"
+msgstr "από"
+
+msgid "LRob, WordPress specialist"
+msgstr "LRob, ειδικός στο WordPress"
+
+
+msgid "Warning:"
+msgstr "Προειδοποίηση:"
+
+msgid "This will invalidate all existing user validations. All visitors will see the age gate again."
+msgstr "Αυτό θα ακυρώσει όλες τις υπάρχουσες επιβεβαιώσεις. Όλοι οι επισκέπτες θα δουν ξανά τον έλεγχο ηλικίας."
+
+msgid "Are you sure? This will force all users to validate their age again."
+msgstr "Είστε βέβαιοι; Αυτό θα αναγκάσει όλους τους χρήστες να επαληθεύσουν ξανά την ηλικία τους."
+
+msgid "Invalidate All Cookies"
+msgstr "Ακύρωση όλων των cookies"
+
+msgid "\"Auto\" theme using detected theme colors. Preview may vary from frontend."
+msgstr "Το θέμα «Αυτόματο» χρησιμοποιεί τα χρώματα του συστήματος. Η προεπισκόπηση ενδέχεται να διαφέρει από την τελική εμφάνιση."
+
+msgid "\"Auto\" theme shown with fallback colors. Theme colors not detected."
+msgstr "Το θέμα «Αυτόματο» εμφανίζεται με εναλλακτικά χρώματα. Δεν εντοπίστηκαν τα χρώματα του θέματος."

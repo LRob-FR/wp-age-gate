@@ -1,0 +1,687 @@
+[
+  {
+    "country_code": "AR",
+    "message_code": "alcohol",
+    "decline_url": "https://www.argentina.gob.ar/salud"
+  },
+  {
+    "country_code": "AR",
+    "message_code": "tobacco",
+    "decline_url": "https://www.argentina.gob.ar/salud/tabaco"
+  },
+  {
+    "country_code": "AT",
+    "message_code": "alcohol",
+    "decline_url": "https://www.sozialministerium.at/"
+  },
+  {
+    "country_code": "AT",
+    "message_code": "cannabis",
+    "decline_url": "https://www.sozialministerium.at/"
+  },
+  {
+    "country_code": "AT",
+    "message_code": "medication",
+    "decline_url": "https://www.basg.gv.at/"
+  },
+  {
+    "country_code": "AT",
+    "message_code": "tobacco",
+    "decline_url": "https://www.sozialministerium.at/"
+  },
+  {
+    "country_code": "AU",
+    "message_code": "adult",
+    "decline_url": "https://www.esafety.gov.au/"
+  },
+  {
+    "country_code": "AU",
+    "message_code": "alcohol",
+    "decline_url": "https://www.health.gov.au/topics/alcohol"
+  },
+  {
+    "country_code": "AU",
+    "message_code": "gambling",
+    "decline_url": "https://www.responsiblegambling.vic.gov.au/"
+  },
+  {
+    "country_code": "AU",
+    "message_code": "medication",
+    "decline_url": "https://www.tga.gov.au/"
+  },
+  {
+    "country_code": "AU",
+    "message_code": "tobacco",
+    "decline_url": "https://www.health.gov.au/topics/smoking"
+  },
+  {
+    "country_code": "BE",
+    "message_code": "alcohol",
+    "decline_url": "https://www.health.belgium.be/"
+  },
+  {
+    "country_code": "BE",
+    "message_code": "cannabis",
+    "decline_url": "https://www.health.belgium.be/"
+  },
+  {
+    "country_code": "BE",
+    "message_code": "gambling",
+    "decline_url": "https://www.gamingcommission.be/"
+  },
+  {
+    "country_code": "BE",
+    "message_code": "medication",
+    "decline_url": "https://www.afmps.be/"
+  },
+  {
+    "country_code": "BE",
+    "message_code": "tobacco",
+    "decline_url": "https://www.health.belgium.be/"
+  },
+  {
+    "country_code": "BR",
+    "message_code": "alcohol",
+    "decline_url": "https://www.gov.br/saude/"
+  },
+  {
+    "country_code": "BR",
+    "message_code": "tobacco",
+    "decline_url": "https://www.inca.gov.br/"
+  },
+  {
+    "country_code": "CA",
+    "message_code": "alcohol",
+    "decline_url": "https://www.canada.ca/en/health-canada.html"
+  },
+  {
+    "country_code": "CA",
+    "message_code": "cannabis",
+    "decline_url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis.html"
+  },
+  {
+    "country_code": "CA",
+    "message_code": "firearms",
+    "decline_url": "https://www.rcmp-grc.gc.ca/en/firearms"
+  },
+  {
+    "country_code": "CA",
+    "message_code": "gambling",
+    "decline_url": "https://www.responsiblegambling.org/"
+  },
+  {
+    "country_code": "CA",
+    "message_code": "tobacco",
+    "decline_url": "https://www.canada.ca/en/health-canada/services/smoking-tobacco.html"
+  },
+  {
+    "country_code": "CH",
+    "message_code": "alcohol",
+    "decline_url": "https://www.bag.admin.ch/"
+  },
+  {
+    "country_code": "CH",
+    "message_code": "cannabis",
+    "decline_url": "https://www.bag.admin.ch/"
+  },
+  {
+    "country_code": "CH",
+    "message_code": "medication",
+    "decline_url": "https://www.swissmedic.ch/"
+  },
+  {
+    "country_code": "CH",
+    "message_code": "tobacco",
+    "decline_url": "https://www.bag.admin.ch/"
+  },
+  {
+    "country_code": "CL",
+    "message_code": "alcohol",
+    "decline_url": "https://www.minsal.cl/"
+  },
+  {
+    "country_code": "CL",
+    "message_code": "gambling",
+    "decline_url": "https://www.superintendenciacasinos.cl/"
+  },
+  {
+    "country_code": "CL",
+    "message_code": "tobacco",
+    "decline_url": "https://www.minsal.cl/"
+  },
+  {
+    "country_code": "CN",
+    "message_code": "adult",
+    "decline_url": "https://www.12377.cn/"
+  },
+  {
+    "country_code": "CN",
+    "message_code": "alcohol",
+    "decline_url": "http://www.nhc.gov.cn/"
+  },
+  {
+    "country_code": "CN",
+    "message_code": "gaming",
+    "decline_url": "http://www.nppa.gov.cn/"
+  },
+  {
+    "country_code": "CN",
+    "message_code": "tobacco",
+    "decline_url": "http://www.nhc.gov.cn/"
+  },
+  {
+    "country_code": "DE",
+    "message_code": "alcohol",
+    "decline_url": "https://www.bzga.de/"
+  },
+  {
+    "country_code": "DE",
+    "message_code": "cannabis",
+    "decline_url": "https://www.bundesgesundheitsministerium.de/"
+  },
+  {
+    "country_code": "DE",
+    "message_code": "medication",
+    "decline_url": "https://www.bfarm.de/"
+  },
+  {
+    "country_code": "DE",
+    "message_code": "tobacco",
+    "decline_url": "https://www.bzga.de/"
+  },
+  {
+    "country_code": "DK",
+    "message_code": "alcohol",
+    "decline_url": "https://www.sst.dk/"
+  },
+  {
+    "country_code": "DK",
+    "message_code": "gambling",
+    "decline_url": "https://spillemyndigheden.dk/"
+  },
+  {
+    "country_code": "DK",
+    "message_code": "medication",
+    "decline_url": "https://laegemiddelstyrelsen.dk/"
+  },
+  {
+    "country_code": "DK",
+    "message_code": "tobacco",
+    "decline_url": "https://www.sst.dk/"
+  },
+  {
+    "country_code": "EG",
+    "message_code": "alcohol",
+    "decline_url": "https://www.mohp.gov.eg/"
+  },
+  {
+    "country_code": "EG",
+    "message_code": "tobacco",
+    "decline_url": "https://www.mohp.gov.eg/"
+  },
+  {
+    "country_code": "ES",
+    "message_code": "alcohol",
+    "decline_url": "https://www.mscbs.gob.es/"
+  },
+  {
+    "country_code": "ES",
+    "message_code": "cannabis",
+    "decline_url": "https://www.pnsd.mscbs.gob.es/"
+  },
+  {
+    "country_code": "ES",
+    "message_code": "gambling",
+    "decline_url": "https://www.ordenacionjuego.es/"
+  },
+  {
+    "country_code": "ES",
+    "message_code": "medication",
+    "decline_url": "https://www.aemps.gob.es/"
+  },
+  {
+    "country_code": "ES",
+    "message_code": "tobacco",
+    "decline_url": "https://www.mscbs.gob.es/"
+  },
+  {
+    "country_code": "FI",
+    "message_code": "alcohol",
+    "decline_url": "https://thl.fi/"
+  },
+  {
+    "country_code": "FI",
+    "message_code": "medication",
+    "decline_url": "https://www.fimea.fi/"
+  },
+  {
+    "country_code": "FI",
+    "message_code": "tobacco",
+    "decline_url": "https://thl.fi/"
+  },
+  {
+    "country_code": "FR",
+    "message_code": "adult",
+    "decline_url": "https://www.internet-signalement.gouv.fr/"
+  },
+  {
+    "country_code": "FR",
+    "message_code": "alcohol",
+    "decline_url": "https://www.santepubliquefrance.fr/"
+  },
+  {
+    "country_code": "FR",
+    "message_code": "cannabis",
+    "decline_url": "https://www.drogues-info-service.fr/"
+  },
+  {
+    "country_code": "FR",
+    "message_code": "gambling",
+    "decline_url": "https://www.joueurs-info-service.fr/"
+  },
+  {
+    "country_code": "FR",
+    "message_code": "medication",
+    "decline_url": "https://www.sante.fr/"
+  },
+  {
+    "country_code": "FR",
+    "message_code": "tobacco",
+    "decline_url": "https://www.tabac-info-service.fr/"
+  },
+  {
+    "country_code": "GB",
+    "message_code": "adult",
+    "decline_url": "https://www.gov.uk/report-online-sexual-abuse"
+  },
+  {
+    "country_code": "GB",
+    "message_code": "alcohol",
+    "decline_url": "https://www.gov.uk/"
+  },
+  {
+    "country_code": "GB",
+    "message_code": "cannabis",
+    "decline_url": "https://www.gov.uk/"
+  },
+  {
+    "country_code": "GB",
+    "message_code": "gambling",
+    "decline_url": "https://www.gamblingcommission.gov.uk/"
+  },
+  {
+    "country_code": "GB",
+    "message_code": "medication",
+    "decline_url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"
+  },
+  {
+    "country_code": "GB",
+    "message_code": "tobacco",
+    "decline_url": "https://www.gov.uk/"
+  },
+  {
+    "country_code": "GH",
+    "message_code": "gambling",
+    "decline_url": "https://www.gamingcommission.gov.gh/"
+  },
+  {
+    "country_code": "GR",
+    "message_code": "alcohol",
+    "decline_url": "https://www.moh.gov.gr/"
+  },
+  {
+    "country_code": "GR",
+    "message_code": "gambling",
+    "decline_url": "https://www.hgc.gov.gr/"
+  },
+  {
+    "country_code": "GR",
+    "message_code": "medication",
+    "decline_url": "https://www.eof.gr/"
+  },
+  {
+    "country_code": "GR",
+    "message_code": "tobacco",
+    "decline_url": "https://www.moh.gov.gr/"
+  },
+  {
+    "country_code": "HU",
+    "message_code": "alcohol",
+    "decline_url": "https://www.kormany.hu/"
+  },
+  {
+    "country_code": "HU",
+    "message_code": "medication",
+    "decline_url": "https://www.ogyei.gov.hu/"
+  },
+  {
+    "country_code": "HU",
+    "message_code": "tobacco",
+    "decline_url": "https://www.kormany.hu/"
+  },
+  {
+    "country_code": "IE",
+    "message_code": "alcohol",
+    "decline_url": "https://www.hse.ie/"
+  },
+  {
+    "country_code": "IE",
+    "message_code": "cannabis",
+    "decline_url": "https://www.hse.ie/"
+  },
+  {
+    "country_code": "IE",
+    "message_code": "gambling",
+    "decline_url": "https://www.gamblingregulator.ie/"
+  },
+  {
+    "country_code": "IE",
+    "message_code": "medication",
+    "decline_url": "https://www.hpra.ie/"
+  },
+  {
+    "country_code": "IE",
+    "message_code": "tobacco",
+    "decline_url": "https://www.hse.ie/"
+  },
+  {
+    "country_code": "IN",
+    "message_code": "adult",
+    "decline_url": "https://cybercrime.gov.in/"
+  },
+  {
+    "country_code": "IN",
+    "message_code": "alcohol",
+    "decline_url": "https://www.mohfw.gov.in/"
+  },
+  {
+    "country_code": "IN",
+    "message_code": "gaming",
+    "decline_url": "https://www.meity.gov.in/"
+  },
+  {
+    "country_code": "IN",
+    "message_code": "tobacco",
+    "decline_url": "https://nhp.gov.in/healthlyliving/tobacco-control"
+  },
+  {
+    "country_code": "IT",
+    "message_code": "alcohol",
+    "decline_url": "https://www.salute.gov.it/"
+  },
+  {
+    "country_code": "IT",
+    "message_code": "cannabis",
+    "decline_url": "https://www.salute.gov.it/"
+  },
+  {
+    "country_code": "IT",
+    "message_code": "gambling",
+    "decline_url": "https://www.adm.gov.it/"
+  },
+  {
+    "country_code": "IT",
+    "message_code": "medication",
+    "decline_url": "https://www.aifa.gov.it/"
+  },
+  {
+    "country_code": "IT",
+    "message_code": "tobacco",
+    "decline_url": "https://www.salute.gov.it/"
+  },
+  {
+    "country_code": "JP",
+    "message_code": "adult",
+    "decline_url": "https://www.npa.go.jp/"
+  },
+  {
+    "country_code": "JP",
+    "message_code": "alcohol",
+    "decline_url": "https://www.mhlw.go.jp/"
+  },
+  {
+    "country_code": "JP",
+    "message_code": "gaming",
+    "decline_url": "https://www.caa.go.jp/"
+  },
+  {
+    "country_code": "JP",
+    "message_code": "tobacco",
+    "decline_url": "https://www.mhlw.go.jp/"
+  },
+  {
+    "country_code": "KE",
+    "message_code": "alcohol",
+    "decline_url": "https://www.nacada.go.ke/"
+  },
+  {
+    "country_code": "KE",
+    "message_code": "gambling",
+    "decline_url": "https://www.bclb.go.ke/"
+  },
+  {
+    "country_code": "KE",
+    "message_code": "tobacco",
+    "decline_url": "https://www.health.go.ke/"
+  },
+  {
+    "country_code": "KR",
+    "message_code": "adult",
+    "decline_url": "https://www.police.go.kr/"
+  },
+  {
+    "country_code": "KR",
+    "message_code": "alcohol",
+    "decline_url": "https://www.kdca.go.kr/"
+  },
+  {
+    "country_code": "KR",
+    "message_code": "gaming",
+    "decline_url": "https://www.mcst.go.kr/"
+  },
+  {
+    "country_code": "KR",
+    "message_code": "tobacco",
+    "decline_url": "https://www.kdca.go.kr/"
+  },
+  {
+    "country_code": "MA",
+    "message_code": "alcohol",
+    "decline_url": "https://www.sante.gov.ma/"
+  },
+  {
+    "country_code": "MA",
+    "message_code": "tobacco",
+    "decline_url": "https://www.sante.gov.ma/"
+  },
+  {
+    "country_code": "NG",
+    "message_code": "gambling",
+    "decline_url": "https://www.nlrc.gov.ng/"
+  },
+  {
+    "country_code": "NL",
+    "message_code": "alcohol",
+    "decline_url": "https://www.government.nl/topics/alcohol"
+  },
+  {
+    "country_code": "NL",
+    "message_code": "cannabis",
+    "decline_url": "https://www.government.nl/topics/drugs"
+  },
+  {
+    "country_code": "NL",
+    "message_code": "gambling",
+    "decline_url": "https://kansspelautoriteit.nl/"
+  },
+  {
+    "country_code": "NL",
+    "message_code": "medication",
+    "decline_url": "https://www.cbg-meb.nl/"
+  },
+  {
+    "country_code": "NL",
+    "message_code": "tobacco",
+    "decline_url": "https://www.government.nl/topics/smoking"
+  },
+  {
+    "country_code": "NO",
+    "message_code": "alcohol",
+    "decline_url": "https://www.helsenorge.no/"
+  },
+  {
+    "country_code": "NO",
+    "message_code": "gambling",
+    "decline_url": "https://www.lottstift.no/"
+  },
+  {
+    "country_code": "NO",
+    "message_code": "medication",
+    "decline_url": "https://www.legemiddelverket.no/"
+  },
+  {
+    "country_code": "NO",
+    "message_code": "tobacco",
+    "decline_url": "https://www.helsenorge.no/"
+  },
+  {
+    "country_code": "NZ",
+    "message_code": "alcohol",
+    "decline_url": "https://www.health.govt.nz/your-health/healthy-living/addictions/alcohol-and-drugs/alcohol"
+  },
+  {
+    "country_code": "NZ",
+    "message_code": "gambling",
+    "decline_url": "https://www.health.govt.nz/your-health/healthy-living/addictions/gambling"
+  },
+  {
+    "country_code": "NZ",
+    "message_code": "medication",
+    "decline_url": "https://www.medsafe.govt.nz/"
+  },
+  {
+    "country_code": "NZ",
+    "message_code": "tobacco",
+    "decline_url": "https://www.health.govt.nz/your-health/healthy-living/addictions/smoking"
+  },
+  {
+    "country_code": "PL",
+    "message_code": "alcohol",
+    "decline_url": "https://www.gov.pl/web/zdrowie"
+  },
+  {
+    "country_code": "PL",
+    "message_code": "medication",
+    "decline_url": "https://www.urpl.gov.pl/"
+  },
+  {
+    "country_code": "PL",
+    "message_code": "tobacco",
+    "decline_url": "https://www.gov.pl/web/zdrowie"
+  },
+  {
+    "country_code": "PT",
+    "message_code": "alcohol",
+    "decline_url": "https://www.dgs.pt/"
+  },
+  {
+    "country_code": "PT",
+    "message_code": "medication",
+    "decline_url": "https://www.infarmed.pt/"
+  },
+  {
+    "country_code": "PT",
+    "message_code": "tobacco",
+    "decline_url": "https://www.dgs.pt/"
+  },
+  {
+    "country_code": "SE",
+    "message_code": "alcohol",
+    "decline_url": "https://www.folkhalsomyndigheten.se/"
+  },
+  {
+    "country_code": "SE",
+    "message_code": "gambling",
+    "decline_url": "https://www.spelinspektionen.se/"
+  },
+  {
+    "country_code": "SE",
+    "message_code": "medication",
+    "decline_url": "https://www.lakemedelsverket.se/"
+  },
+  {
+    "country_code": "SE",
+    "message_code": "tobacco",
+    "decline_url": "https://www.folkhalsomyndigheten.se/"
+  },
+  {
+    "country_code": "SG",
+    "message_code": "adult",
+    "decline_url": "https://www.imda.gov.sg/"
+  },
+  {
+    "country_code": "SG",
+    "message_code": "alcohol",
+    "decline_url": "https://www.healthhub.sg/"
+  },
+  {
+    "country_code": "SG",
+    "message_code": "gaming",
+    "decline_url": "https://www.gra.gov.sg/"
+  },
+  {
+    "country_code": "SG",
+    "message_code": "tobacco",
+    "decline_url": "https://www.healthhub.sg/"
+  },
+  {
+    "country_code": "US",
+    "message_code": "adult",
+    "decline_url": "https://report.cybertipline.org/"
+  },
+  {
+    "country_code": "US",
+    "message_code": "alcohol",
+    "decline_url": "https://www.ttb.gov/"
+  },
+  {
+    "country_code": "US",
+    "message_code": "cannabis",
+    "decline_url": "https://www.dea.gov/"
+  },
+  {
+    "country_code": "US",
+    "message_code": "firearms",
+    "decline_url": "https://www.atf.gov/"
+  },
+  {
+    "country_code": "US",
+    "message_code": "gambling",
+    "decline_url": "https://www.ncpgambling.org/"
+  },
+  {
+    "country_code": "US",
+    "message_code": "tobacco",
+    "decline_url": "https://www.fda.gov/tobacco-products"
+  },
+  {
+    "country_code": "ZA",
+    "message_code": "adult",
+    "decline_url": "https://www.fpb.org.za/"
+  },
+  {
+    "country_code": "ZA",
+    "message_code": "alcohol",
+    "decline_url": "https://www.gov.za/"
+  },
+  {
+    "country_code": "ZA",
+    "message_code": "gambling",
+    "decline_url": "https://www.ngb.org.za/"
+  },
+  {
+    "country_code": "ZA",
+    "message_code": "tobacco",
+    "decline_url": "https://www.health.gov.za/"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "message_code": "gaming",
+  "message_label": "Gaming",
+  "min_age": 18,
+  "title": "Age Verification",
+  "message": "You must be at least {age} years old to access this site. By entering, you confirm that you meet this age requirement.",
+  "legal": "Online gaming content may be restricted for minors (e.g., playtime limits, age ratings, loot box rules)."
+}

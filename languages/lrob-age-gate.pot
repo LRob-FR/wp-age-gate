@@ -1,0 +1,287 @@
+# Copyright (C) 2025 LRob
+# This file is distributed under the same license as the LRob - Age Gate plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LRob Age Gate 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lrob-age-gate\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-11T01:04:32+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: lrob-age-gate\n"
+
+#. Plugin Name of the plugin
+msgid "LRob - Age Gate"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.lrob.fr/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Age verification gate with configurable presets for alcohol, adult content, and age-restricted products."
+msgstr ""
+
+#. Author of the plugin
+msgid "LRob"
+msgstr ""
+
+msgid "Adult Content"
+msgstr ""
+
+msgid "Age Verification"
+msgstr ""
+
+msgid "You must be at least {age} years old to access this site. By entering, you confirm that you meet this age requirement."
+msgstr ""
+
+msgid "This content is restricted to adults only. Access by minors is prohibited."
+msgstr ""
+
+msgid "Alcohol"
+msgstr ""
+
+msgid "The sale of alcohol to minors is prohibited. Alcohol abuse is dangerous for your health."
+msgstr ""
+
+msgid "Cannabis / CBD"
+msgstr ""
+
+msgid "Access to cannabis-related content is restricted to adults where permitted by law."
+msgstr ""
+
+msgid "Firearms"
+msgstr ""
+
+msgid "Access to firearm-related content is restricted to adults of legal age. Always comply with local laws and regulations."
+msgstr ""
+
+msgid "Gambling"
+msgstr ""
+
+msgid "Gambling is prohibited for minors and may be subject to licensing rules. Gamble responsibly."
+msgstr ""
+
+msgid "Gaming"
+msgstr ""
+
+msgid "Online gaming content may be restricted for minors (e.g., playtime limits, age ratings, loot box rules)."
+msgstr ""
+
+msgid "Medication"
+msgstr ""
+
+msgid "This content concerns medication. Some products are restricted to adults and require prescriptions."
+msgstr ""
+
+msgid "Tobacco"
+msgstr ""
+
+msgid "The sale of tobacco to minors is prohibited. Smoking harms your health."
+msgstr ""
+
+msgid "Violent or Sensitive Content"
+msgstr ""
+
+msgid "This content may include scenes of violence or sensitive material not suitable for minors."
+msgstr ""
+
+msgid "Age Gate"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Content & Messages"
+msgstr ""
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Tools"
+msgstr ""
+
+msgid "Enable Age Gate"
+msgstr ""
+
+msgid "Cookie duration (days)"
+msgstr ""
+
+msgid "Quick Load"
+msgstr ""
+
+msgid "Minimum age"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Legal notice"
+msgstr ""
+
+msgid "Accept button"
+msgstr ""
+
+msgid "Decline button"
+msgstr ""
+
+msgid "Decline redirect URL"
+msgstr ""
+
+msgid "Theme"
+msgstr ""
+
+msgid "Auto (follows system)"
+msgstr ""
+
+msgid "Light"
+msgstr ""
+
+msgid "Dark"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Background"
+msgstr ""
+
+msgid "Text color"
+msgstr ""
+
+msgid "Accept bg"
+msgstr ""
+
+msgid "Accept text"
+msgstr ""
+
+msgid "Decline bg"
+msgstr ""
+
+msgid "Decline text"
+msgstr ""
+
+msgid "Border radius (px)"
+msgstr ""
+
+msgid "Backdrop blur (px)"
+msgstr ""
+
+msgid "Invalidate all cookies"
+msgstr ""
+
+msgid "Configure age verification behavior."
+msgstr ""
+
+msgid "Select a preset to quick-load a message template, then customize the fields as needed."
+msgstr ""
+
+msgid "Configuration Required:"
+msgstr ""
+
+msgid "Please select a preset or configure all content fields below."
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "-- Select Message --"
+msgstr ""
+
+msgid "-- Country --"
+msgstr ""
+
+msgid "Load Preset"
+msgstr ""
+
+msgid "Message template is universal. Country is used for decline URL only."
+msgstr ""
+
+msgid "Legal Disclaimer:"
+msgstr ""
+
+msgid "Laws vary by jurisdiction and change over time. You are responsible for ensuring compliance with your local regulations. Always consult legal counsel and adapt messages to your specific requirements."
+msgstr ""
+
+msgid "Use {age} for minimum age."
+msgstr ""
+
+msgid "Unauthorized"
+msgstr ""
+
+msgid "Missing parameters"
+msgstr ""
+
+msgid "I confirm I am of legal age"
+msgstr ""
+
+msgid "I am not of legal age"
+msgstr ""
+
+msgid "Age Verification Required"
+msgstr ""
+
+msgid "Please select a preset or configure your age verification message."
+msgstr ""
+
+msgid "Configure your legal notice."
+msgstr ""
+
+msgid "All age verification cookies have been invalidated. Users will be prompted again."
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Please select a preset or configure all content fields."
+msgstr ""
+
+msgid "Live Preview"
+msgstr ""
+
+msgid "Preview updates as you modify settings."
+msgstr ""
+
+msgid "Testing:"
+msgstr ""
+
+msgid "For real-world testing, visit your website in a private/incognito browsing session."
+msgstr ""
+
+msgid "Developed with"
+msgstr ""
+
+msgid "by"
+msgstr ""
+
+msgid "LRob, WordPress specialist"
+msgstr ""
+
+msgid "Warning:"
+msgstr ""
+
+msgid "This will invalidate all existing user validations. All visitors will see the age gate again."
+msgstr ""
+
+msgid "Are you sure? This will force all users to validate their age again."
+msgstr ""
+
+msgid "Invalidate All Cookies"
+msgstr ""
+
+msgid "\"Auto\" theme using detected theme colors. Preview may vary from frontend."
+msgstr ""
+
+msgid "\"Auto\" theme shown with fallback colors. Theme colors not detected."
+msgstr ""

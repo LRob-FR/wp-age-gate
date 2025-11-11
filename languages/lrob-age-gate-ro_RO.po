@@ -1,0 +1,289 @@
+# Copyright (C) 2025 LRob
+# This file is distributed under the same license as the LRob - Age Gate plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LRob Age Gate 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lrob-age-gate\n"
+"Last-Translator: ChatGPT <translations@openai.com>\n"
+"Language-Team: Română <ro@lrob.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-10T16:25:09+00:00\n"
+"PO-Revision-Date: 2025-11-10 20:55+0200\n"
+"Language: ro_RO\n"
+"X-Generator: GPT-5\n"
+"X-Domain: lrob-age-gate\n"
+
+#. Plugin Name of the plugin
+msgid "LRob - Age Gate"
+msgstr "LRob - Verificare vârstă"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.lrob.fr/"
+msgstr "https://www.lrob.fr/"
+
+#. Description of the plugin
+msgid "Age verification gate with configurable presets for alcohol, adult content, and age-restricted products."
+msgstr "Sistem de verificare a vârstei cu presetări configurabile pentru alcool, conținut pentru adulți și produse cu restricții de vârstă."
+
+#. Author of the plugin
+msgid "LRob"
+msgstr "LRob"
+
+msgid "Age Gate"
+msgstr "Verificare vârstă"
+
+msgid "General Settings"
+msgstr "Setări generale"
+
+msgid "Content & Messages"
+msgstr "Conținut și mesaje"
+
+msgid "Appearance"
+msgstr "Aspect"
+
+msgid "Tools"
+msgstr "Instrumente"
+
+msgid "Enable Age Gate"
+msgstr "Activează verificarea vârstei"
+
+msgid "Cookie duration (days)"
+msgstr "Durata cookie-ului (zile)"
+
+msgid "Quick Load"
+msgstr "Încărcare rapidă"
+
+msgid "Minimum age"
+msgstr "Vârsta minimă"
+
+msgid "Title"
+msgstr "Titlu"
+
+msgid "Message"
+msgstr "Mesaj"
+
+msgid "Legal notice"
+msgstr "Notă legală"
+
+msgid "Accept button"
+msgstr "Buton Accept"
+
+msgid "Decline button"
+msgstr "Buton Refuz"
+
+msgid "Decline redirect URL"
+msgstr "URL de redirecționare la refuz"
+
+msgid "Theme"
+msgstr "Temă"
+
+msgid "Auto (follows system)"
+msgstr "Automat (conform sistemului)"
+
+msgid "Light"
+msgstr "Deschis"
+
+msgid "Dark"
+msgstr "Închis"
+
+msgid "Custom"
+msgstr "Personalizat"
+
+msgid "Background"
+msgstr "Fundal"
+
+msgid "Text color"
+msgstr "Culoarea textului"
+
+msgid "Accept bg"
+msgstr "Fundal buton Accept"
+
+msgid "Accept text"
+msgstr "Text buton Accept"
+
+msgid "Decline bg"
+msgstr "Fundal buton Refuz"
+
+msgid "Decline text"
+msgstr "Text buton Refuz"
+
+msgid "Border radius (px)"
+msgstr "Raza colțurilor (px)"
+
+msgid "Backdrop blur (px)"
+msgstr "Estompare fundal (px)"
+
+msgid "Invalidate all cookies"
+msgstr "Invalidează toate cookie-urile"
+
+msgid "Configure age verification behavior."
+msgstr "Configurați comportamentul verificării vârstei."
+
+msgid "Select a preset to quick-load a message template, then customize the fields as needed."
+msgstr "Selectați o presetare pentru a încărca rapid un șablon de mesaj, apoi personalizați câmpurile după nevoie."
+
+msgid "Configuration Required:"
+msgstr "Configurare necesară:"
+
+msgid "Please select a preset or configure all content fields below."
+msgstr "Vă rugăm să selectați o presetare sau să configurați toate câmpurile de conținut de mai jos."
+
+msgid "Enable"
+msgstr "Activează"
+
+msgid "-- Select Message --"
+msgstr "-- Selectați mesajul --"
+
+msgid "-- Country --"
+msgstr "-- Țară --"
+
+msgid "Load Preset"
+msgstr "Încărcați presetarea"
+
+msgid "Message template is universal. Country is used for decline URL only."
+msgstr "Șablonul de mesaj este universal. Țara este utilizată doar pentru URL-ul de redirecționare la refuz."
+
+msgid "Legal Disclaimer:"
+msgstr "Avertisment legal:"
+
+msgid "Laws vary by jurisdiction and change over time. You are responsible for ensuring compliance with your local regulations. Always consult legal counsel and adapt messages to your specific requirements."
+msgstr "Legile diferă în funcție de jurisdicție și se pot modifica. Sunteți responsabil pentru respectarea reglementărilor locale. Consultați un consilier juridic și adaptați mesajele la cerințele dumneavoastră."
+
+msgid "Use {age} for minimum age."
+msgstr "Folosiți {age} pentru vârsta minimă."
+
+msgid "Unauthorized"
+msgstr "Neautorizat"
+
+msgid "Missing parameters"
+msgstr "Parametri lipsă"
+
+msgid "I confirm I am of legal age"
+msgstr "Confirm că am împlinit vârsta legală"
+
+msgid "I am not of legal age"
+msgstr "Nu am vârsta legală"
+
+msgid "Adult Content"
+msgstr "Conținut pentru adulți"
+
+msgid "Age Verification"
+msgstr "Verificare vârstă"
+
+msgid "You must be at least {age} years old to access this site. By entering, you confirm that you meet this age requirement."
+msgstr "Trebuie să aveți cel puțin {age} ani pentru a accesa acest site. La accesare confirmați că îndepliniți această condiție de vârstă."
+
+msgid "This content is restricted to adults only. Access by minors is prohibited."
+msgstr "Acest conținut este destinat exclusiv adulților (peste {age} de ani). Accesul minorilor (sub {age} de ani) este interzis."
+
+msgid "Alcohol"
+msgstr "Alcool"
+
+msgid "The sale of alcohol to minors is prohibited. Alcohol abuse is dangerous for your health."
+msgstr "Vânzarea de alcool către minori sub {age} de ani este interzisă. Abuzul de alcool este periculos pentru sănătate."
+
+msgid "Cannabis / CBD"
+msgstr "Canabis / CBD"
+
+msgid "Access to cannabis-related content is restricted to adults where permitted by law."
+msgstr "Accesul la conținut referitor la canabis este permis doar adulților, acolo unde legea permite."
+
+msgid "Firearms"
+msgstr "Arme de foc"
+
+msgid "Access to firearm-related content is restricted to adults of legal age. Always comply with local laws and regulations."
+msgstr "Accesul la conținut legat de arme de foc este permis numai adulților. Respectați întotdeauna legile și reglementările locale."
+
+msgid "Gambling"
+msgstr "Jocuri de noroc"
+
+msgid "Gambling is prohibited for minors and may be subject to licensing rules. Gamble responsibly."
+msgstr "Jocurile de noroc sunt interzise minorilor și pot fi supuse reglementărilor de licențiere. Jucați responsabil."
+
+msgid "Gaming"
+msgstr "Jocuri video"
+
+msgid "Online gaming content may be restricted for minors (e.g., playtime limits, age ratings, loot box rules)."
+msgstr "Conținutul de jocuri online poate fi restricționat pentru minori sub {age} de ani (de exemplu: limite de timp de joc, clasificări de vârstă, reguli privind loot box-urile)."
+
+msgid "Medication"
+msgstr "Medicamente"
+
+msgid "This content concerns medication. Some products are restricted to adults and require prescriptions."
+msgstr "Acest conținut se referă la medicamente. Unele produse sunt destinate exclusiv adulților și necesită rețetă."
+
+msgid "Tobacco"
+msgstr "Tutun"
+
+msgid "The sale of tobacco to minors is prohibited. Smoking harms your health."
+msgstr "Vânzarea de tutun către minori sub {age} de ani este interzisă. Fumatul dăunează grav sănătății."
+
+msgid "Violent or Sensitive Content"
+msgstr "Conținut violent sau sensibil"
+
+msgid "This content may include scenes of violence or sensitive material not suitable for minors."
+msgstr "Acest conținut poate include scene de violență sau materiale sensibile, nepotrivite pentru minori."
+
+msgid "Age Verification Required"
+msgstr "Este necesară verificarea vârstei"
+
+msgid "Please select a preset or configure your age verification message."
+msgstr "Selectați o presetare sau configurați mesajul de verificare a vârstei."
+
+msgid "Configure your legal notice."
+msgstr "Configurați nota legală."
+
+msgid "All age verification cookies have been invalidated. Users will be prompted again."
+msgstr "Toate cookie-urile de verificare a vârstei au fost invalidate. Utilizatorii vor fi solicitați din nou."
+
+msgid "General"
+msgstr "General"
+
+msgid "Content"
+msgstr "Conținut"
+
+msgid "Please select a preset or configure all content fields."
+msgstr "Selectați o presetare sau configurați toate câmpurile de conținut."
+
+msgid "Live Preview"
+msgstr "Previzualizare în timp real"
+
+msgid "Preview updates as you modify settings."
+msgstr "Previzualizați modificările pe măsură ce ajustați setările."
+
+msgid "Testing:"
+msgstr "Testare:"
+
+msgid "For real-world testing, visit your website in a private/incognito browsing session."
+msgstr "Pentru testare reală, vizitați site-ul dvs. într-o fereastră privată/incognito."
+
+msgid "Developed with"
+msgstr "Dezvoltat cu"
+
+msgid "by"
+msgstr "de"
+
+msgid "LRob, WordPress specialist"
+msgstr "LRob, specialist WordPress"
+
+
+msgid "Warning:"
+msgstr "Avertisment:"
+
+msgid "This will invalidate all existing user validations. All visitors will see the age gate again."
+msgstr "Această acțiune va invalida toate confirmările existente. Toți vizitatorii vor vedea din nou verificarea vârstei."
+
+msgid "Are you sure? This will force all users to validate their age again."
+msgstr "Sunteți sigur? Aceasta îi va obliga pe toți utilizatorii să își confirme din nou vârsta."
+
+msgid "Invalidate All Cookies"
+msgstr "Invalidează toate cookie-urile"
+
+msgid "\"Auto\" theme using detected theme colors. Preview may vary from frontend."
+msgstr "Tema „Automat” folosește culorile detectate ale sistemului. Previzualizarea poate diferi de aspectul final."
+
+msgid "\"Auto\" theme shown with fallback colors. Theme colors not detected."
+msgstr "Tema „Automat” este afișată cu culori alternative. Culorile temei nu au fost detectate."

@@ -1,0 +1,289 @@
+# Copyright (C) 2025 LRob
+# This file is distributed under the same license as the LRob - Age Gate plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LRob Age Gate 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lrob-age-gate\n"
+"Last-Translator: ChatGPT <translations@openai.com>\n"
+"Language-Team: Hrvatski <hr@lrob.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-10T16:25:09+00:00\n"
+"PO-Revision-Date: 2025-11-10 21:15+0200\n"
+"Language: hr_HR\n"
+"X-Generator: GPT-5\n"
+"X-Domain: lrob-age-gate\n"
+
+#. Plugin Name of the plugin
+msgid "LRob - Age Gate"
+msgstr "LRob - Provjera dobi"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.lrob.fr/"
+msgstr "https://www.lrob.fr/"
+
+#. Description of the plugin
+msgid "Age verification gate with configurable presets for alcohol, adult content, and age-restricted products."
+msgstr "Sustav provjere dobi s prilagodljivim postavkama za alkohol, sadržaj za odrasle i proizvode s dobnim ograničenjem."
+
+#. Author of the plugin
+msgid "LRob"
+msgstr "LRob"
+
+msgid "Age Gate"
+msgstr "Provjera dobi"
+
+msgid "General Settings"
+msgstr "Opće postavke"
+
+msgid "Content & Messages"
+msgstr "Sadržaj i poruke"
+
+msgid "Appearance"
+msgstr "Izgled"
+
+msgid "Tools"
+msgstr "Alati"
+
+msgid "Enable Age Gate"
+msgstr "Omogući provjeru dobi"
+
+msgid "Cookie duration (days)"
+msgstr "Trajanje kolačića (dani)"
+
+msgid "Quick Load"
+msgstr "Brzo učitavanje"
+
+msgid "Minimum age"
+msgstr "Minimalna dob"
+
+msgid "Title"
+msgstr "Naslov"
+
+msgid "Message"
+msgstr "Poruka"
+
+msgid "Legal notice"
+msgstr "Pravna napomena"
+
+msgid "Accept button"
+msgstr "Gumb Prihvaćam"
+
+msgid "Decline button"
+msgstr "Gumb Odbijam"
+
+msgid "Decline redirect URL"
+msgstr "URL preusmjeravanja pri odbijanju"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Auto (follows system)"
+msgstr "Automatski (prema sustavu)"
+
+msgid "Light"
+msgstr "Svijetla"
+
+msgid "Dark"
+msgstr "Tamna"
+
+msgid "Custom"
+msgstr "Prilagođena"
+
+msgid "Background"
+msgstr "Pozadina"
+
+msgid "Text color"
+msgstr "Boja teksta"
+
+msgid "Accept bg"
+msgstr "Pozadina gumba Prihvaćam"
+
+msgid "Accept text"
+msgstr "Tekst gumba Prihvaćam"
+
+msgid "Decline bg"
+msgstr "Pozadina gumba Odbijam"
+
+msgid "Decline text"
+msgstr "Tekst gumba Odbijam"
+
+msgid "Border radius (px)"
+msgstr "Zaobljenost rubova (px)"
+
+msgid "Backdrop blur (px)"
+msgstr "Zamućenje pozadine (px)"
+
+msgid "Invalidate all cookies"
+msgstr "Poništi sve kolačiće"
+
+msgid "Configure age verification behavior."
+msgstr "Konfigurirajte način rada provjere dobi."
+
+msgid "Select a preset to quick-load a message template, then customize the fields as needed."
+msgstr "Odaberite unaprijed postavljeni predložak poruke i prilagodite polja prema potrebi."
+
+msgid "Configuration Required:"
+msgstr "Potrebna konfiguracija:"
+
+msgid "Please select a preset or configure all content fields below."
+msgstr "Odaberite unaprijed postavku ili konfigurirajte sva polja sadržaja ispod."
+
+msgid "Enable"
+msgstr "Omogući"
+
+msgid "-- Select Message --"
+msgstr "-- Odaberite poruku --"
+
+msgid "-- Country --"
+msgstr "-- Država --"
+
+msgid "Load Preset"
+msgstr "Učitaj postavku"
+
+msgid "Message template is universal. Country is used for decline URL only."
+msgstr "Predložak poruke je univerzalan. Država se koristi samo za URL preusmjeravanja pri odbijanju."
+
+msgid "Legal Disclaimer:"
+msgstr "Pravno odricanje odgovornosti:"
+
+msgid "Laws vary by jurisdiction and change over time. You are responsible for ensuring compliance with your local regulations. Always consult legal counsel and adapt messages to your specific requirements."
+msgstr "Zakoni se razlikuju ovisno o jurisdikciji i mogu se mijenjati s vremenom. Vi ste odgovorni za poštivanje lokalnih propisa. Uvijek se savjetujte s pravnim stručnjakom i prilagodite poruke vašim potrebama."
+
+msgid "Use {age} for minimum age."
+msgstr "Koristite {age} za minimalnu dob."
+
+msgid "Unauthorized"
+msgstr "Neovlašteno"
+
+msgid "Missing parameters"
+msgstr "Nedostaju parametri"
+
+msgid "I confirm I am of legal age"
+msgstr "Potvrđujem da sam punoljetan/punoljetna"
+
+msgid "I am not of legal age"
+msgstr "Nisam punoljetan/punoljetna"
+
+msgid "Adult Content"
+msgstr "Sadržaj za odrasle"
+
+msgid "Age Verification"
+msgstr "Provjera dobi"
+
+msgid "You must be at least {age} years old to access this site. By entering, you confirm that you meet this age requirement."
+msgstr "Morate imati najmanje {age} godina da biste pristupili ovoj stranici. Ulaskom potvrđujete da ispunjavate ovaj uvjet dobi."
+
+msgid "This content is restricted to adults ({age}+) only. Access by minors (under {age}) is prohibited."
+msgstr "Ovaj sadržaj je namijenjen samo odraslima (iznad {age} godina). Pristup maloljetnicima (ispod {age} godina) je zabranjen."
+
+msgid "Alcohol"
+msgstr "Alkohol"
+
+msgid "The sale of alcohol to minors (under {age}) is prohibited. Alcohol abuse is dangerous for your health."
+msgstr "Prodaja alkohola maloljetnicima ispod {age} godina je zabranjena. Pretjerana konzumacija alkohola šteti zdravlju."
+
+msgid "Cannabis / CBD"
+msgstr "Kanabis / CBD"
+
+msgid "Access to cannabis-related content is restricted to adults ({age}+) where permitted by law."
+msgstr "Pristup sadržaju vezanom uz kanabis dopušten je samo odraslima, gdje je to dopušteno zakonom."
+
+msgid "Firearms"
+msgstr "Vatreno oružje"
+
+msgid "Access to firearm-related content is restricted to adults ({age}+) of legal age. Always comply with local laws and regulations."
+msgstr "Pristup sadržaju vezanom uz vatreno oružje dopušten je samo punoljetnima. Uvijek poštujte lokalne zakone i propise."
+
+msgid "Gambling"
+msgstr "Kockanje"
+
+msgid "Gambling is prohibited for minors (under {age}) and may be subject to licensing rules. Gamble responsibly."
+msgstr "Kockanje je zabranjeno maloljetnicima i može podlijegati posebnim pravilima. Kockajte odgovorno."
+
+msgid "Gaming"
+msgstr "Igranje"
+
+msgid "Online gaming content may be restricted for minors (under {age}) (e.g., playtime limits, age ratings, loot box rules)."
+msgstr "Sadržaj online igara može biti ograničen za maloljetnike (npr. ograničenja vremena igranja, dobne ocjene, pravila za loot boxove)."
+
+msgid "Medication"
+msgstr "Lijekovi"
+
+msgid "This content concerns medication. Some products are restricted to adults ({age}+) and require prescriptions."
+msgstr "Ovaj sadržaj odnosi se na lijekove. Neki proizvodi su dostupni samo odraslima i zahtijevaju recept."
+
+msgid "Tobacco"
+msgstr "Duhan"
+
+msgid "The sale of tobacco to minors (under {age}) is prohibited. Smoking harms your health."
+msgstr "Prodaja duhanskih proizvoda maloljetnicima je zabranjena. Pušenje šteti vašem zdravlju."
+
+msgid "Violent or Sensitive Content"
+msgstr "Nasilan ili osjetljiv sadržaj"
+
+msgid "This content may include scenes of violence or sensitive material not suitable for minors (under {age})."
+msgstr "Ovaj sadržaj može sadržavati scene nasilja ili osjetljive materijale neprikladne za maloljetnike."
+
+msgid "Age Verification Required"
+msgstr "Potrebna je provjera dobi"
+
+msgid "Please select a preset or configure your age verification message."
+msgstr "Odaberite unaprijed postavku ili konfigurirajte vlastitu poruku za provjeru dobi."
+
+msgid "Configure your legal notice."
+msgstr "Konfigurirajte svoju pravnu napomenu."
+
+msgid "All age verification cookies have been invalidated. Users will be prompted again."
+msgstr "Svi kolačići za provjeru dobi su poništeni. Korisnici će ponovno biti upitani."
+
+msgid "General"
+msgstr "Općenito"
+
+msgid "Content"
+msgstr "Sadržaj"
+
+msgid "Please select a preset or configure all content fields."
+msgstr "Odaberite unaprijed postavku ili konfigurirajte sva polja sadržaja."
+
+msgid "Live Preview"
+msgstr "Pregled uživo"
+
+msgid "Preview updates as you modify settings."
+msgstr "Pregledajte promjene dok uređujete postavke."
+
+msgid "Testing:"
+msgstr "Testiranje:"
+
+msgid "For real-world testing, visit your website in a private/incognito browsing session."
+msgstr "Za testiranje u stvarnom okruženju posjetite svoju web-stranicu u privatnom/inkognito prozoru."
+
+msgid "Developed with"
+msgstr "Razvijeno s"
+
+msgid "by"
+msgstr "od"
+
+msgid "LRob, WordPress specialist"
+msgstr "LRob, WordPress stručnjak"
+
+
+msgid "Warning:"
+msgstr "Upozorenje:"
+
+msgid "This will invalidate all existing user validations. All visitors will see the age gate again."
+msgstr "Ovo će poništiti sve postojeće potvrde. Svi posjetitelji će ponovno vidjeti provjeru dobi."
+
+msgid "Are you sure? This will force all users to validate their age again."
+msgstr "Jeste li sigurni? Ovo će prisiliti sve korisnike da ponovno potvrde svoju dob."
+
+msgid "Invalidate All Cookies"
+msgstr "Poništi sve kolačiće"
+
+msgid "\"Auto\" theme using detected theme colors. Preview may vary from frontend."
+msgstr "Tema „Automatski” koristi otkrivene boje sustava. Pregled se može razlikovati od stvarnog izgleda."
+
+msgid "\"Auto\" theme shown with fallback colors. Theme colors not detected."
+msgstr "Tema „Automatski” prikazana je s osnovnim bojama. Boje teme nisu otkrivene."

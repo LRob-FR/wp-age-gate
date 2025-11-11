@@ -1,0 +1,8 @@
+{
+  "message_code": "firearms",
+  "message_label": "Firearms",
+  "min_age": 21,
+  "title": "Age Verification",
+  "message": "You must be at least {age} years old to access this site. By entering, you confirm that you meet this age requirement.",
+  "legal": "Access to firearm-related content is restricted to adults of legal age. Always comply with local laws and regulations."
+}

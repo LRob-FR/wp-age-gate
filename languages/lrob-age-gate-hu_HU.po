@@ -1,0 +1,289 @@
+# Copyright (C) 2025 LRob
+# This file is distributed under the same license as the LRob - Age Gate plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LRob Age Gate 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lrob-age-gate\n"
+"Last-Translator: ChatGPT <translations@openai.com>\n"
+"Language-Team: Magyar <hu@lrob.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-10T16:25:09+00:00\n"
+"PO-Revision-Date: 2025-11-10 20:25+0100\n"
+"Language: hu_HU\n"
+"X-Generator: GPT-5\n"
+"X-Domain: lrob-age-gate\n"
+
+#. Plugin Name of the plugin
+msgid "LRob - Age Gate"
+msgstr "LRob - Korhatár ellenőrzés"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.lrob.fr/"
+msgstr "https://www.lrob.fr/"
+
+#. Description of the plugin
+msgid "Age verification gate with configurable presets for alcohol, adult content, and age-restricted products."
+msgstr "Korhatár-ellenőrző rendszer, konfigurálható beállításokkal alkoholhoz, felnőtt tartalomhoz és korhatáros termékekhez."
+
+#. Author of the plugin
+msgid "LRob"
+msgstr "LRob"
+
+msgid "Age Gate"
+msgstr "Korhatár ellenőrzés"
+
+msgid "General Settings"
+msgstr "Általános beállítások"
+
+msgid "Content & Messages"
+msgstr "Tartalom és üzenetek"
+
+msgid "Appearance"
+msgstr "Megjelenés"
+
+msgid "Tools"
+msgstr "Eszközök"
+
+msgid "Enable Age Gate"
+msgstr "Korhatár-ellenőrzés engedélyezése"
+
+msgid "Cookie duration (days)"
+msgstr "Süti érvényessége (napok)"
+
+msgid "Quick Load"
+msgstr "Gyors betöltés"
+
+msgid "Minimum age"
+msgstr "Minimális életkor"
+
+msgid "Title"
+msgstr "Cím"
+
+msgid "Message"
+msgstr "Üzenet"
+
+msgid "Legal notice"
+msgstr "Jogi nyilatkozat"
+
+msgid "Accept button"
+msgstr "Elfogadás gomb"
+
+msgid "Decline button"
+msgstr "Elutasítás gomb"
+
+msgid "Decline redirect URL"
+msgstr "Elutasítás utáni átirányítási URL"
+
+msgid "Theme"
+msgstr "Téma"
+
+msgid "Auto (follows system)"
+msgstr "Automatikus (rendszer szerint)"
+
+msgid "Light"
+msgstr "Világos"
+
+msgid "Dark"
+msgstr "Sötét"
+
+msgid "Custom"
+msgstr "Egyéni"
+
+msgid "Background"
+msgstr "Háttér"
+
+msgid "Text color"
+msgstr "Szöveg színe"
+
+msgid "Accept bg"
+msgstr "Elfogadás gomb háttere"
+
+msgid "Accept text"
+msgstr "Elfogadás gomb szövege"
+
+msgid "Decline bg"
+msgstr "Elutasítás gomb háttere"
+
+msgid "Decline text"
+msgstr "Elutasítás gomb szövege"
+
+msgid "Border radius (px)"
+msgstr "Szegély lekerekítése (px)"
+
+msgid "Backdrop blur (px)"
+msgstr "Háttér elmosódása (px)"
+
+msgid "Invalidate all cookies"
+msgstr "Összes süti érvénytelenítése"
+
+msgid "Configure age verification behavior."
+msgstr "Korhatár-ellenőrzés működésének beállítása."
+
+msgid "Select a preset to quick-load a message template, then customize the fields as needed."
+msgstr "Válasszon előre beállított sablont az üzenet gyors betöltéséhez, majd testreszabhatja a mezőket."
+
+msgid "Configuration Required:"
+msgstr "Beállítás szükséges:"
+
+msgid "Please select a preset or configure all content fields below."
+msgstr "Válasszon előre beállított sablont, vagy állítsa be az összes tartalmi mezőt alább."
+
+msgid "Enable"
+msgstr "Engedélyezés"
+
+msgid "-- Select Message --"
+msgstr "-- Üzenet kiválasztása --"
+
+msgid "-- Country --"
+msgstr "-- Ország --"
+
+msgid "Load Preset"
+msgstr "Előbeállítás betöltése"
+
+msgid "Message template is universal. Country is used for decline URL only."
+msgstr "Az üzenetsablon általános. Az országot csak az elutasítási URL esetén használjuk."
+
+msgid "Legal Disclaimer:"
+msgstr "Jogi nyilatkozat:"
+
+msgid "Laws vary by jurisdiction and change over time. You are responsible for ensuring compliance with your local regulations. Always consult legal counsel and adapt messages to your specific requirements."
+msgstr "A jogszabályok országonként eltérhetnek és idővel változhatnak. Ön felel a helyi előírások betartásáért. Kérjen jogi tanácsot, és igazítsa az üzeneteket az Ön igényeihez."
+
+msgid "Use {age} for minimum age."
+msgstr "Használja a {age} mezőt a minimális életkor megadásához."
+
+msgid "Unauthorized"
+msgstr "Nincs jogosultság"
+
+msgid "Missing parameters"
+msgstr "Hiányzó paraméterek"
+
+msgid "I confirm I am of legal age"
+msgstr "Megerősítem, hogy elértem a törvényes életkort"
+
+msgid "I am not of legal age"
+msgstr "Nem értem el a törvényes életkort"
+
+msgid "Adult Content"
+msgstr "Felnőtt tartalom"
+
+msgid "Age Verification"
+msgstr "Korhatár ellenőrzés"
+
+msgid "You must be at least {age} years old to access this site. By entering, you confirm that you meet this age requirement."
+msgstr "A webhely eléréséhez legalább {age} évesnek kell lennie. A belépéssel megerősíti, hogy megfelel ennek a korhatárnak."
+
+msgid "This content is restricted to adults ({age}+) only. Access by minors ({age} év alatt) is prohibited."
+msgstr "Ez a tartalom csak felnőttek ({age}+) számára elérhető. A kiskorúak ({age} év alatt) hozzáférése tilos."
+
+msgid "Alcohol"
+msgstr "Alkohol"
+
+msgid "The sale of alcohol to minors ({age} év alatt) is prohibited. Alcohol abuse is dangerous for your health."
+msgstr "Alkohol értékesítése kiskorúak ({age} év alatt)nak tilos. Az alkoholfogyasztás egészségkárosító."
+
+msgid "Cannabis / CBD"
+msgstr "Kannabisz / CBD"
+
+msgid "Access to cannabis-related content is restricted to adults ({age}+) where permitted by law."
+msgstr "A kannabisszal kapcsolatos tartalomhoz csak felnőttek ({age}+) férhetnek hozzá, ahol ezt a törvény engedélyezi."
+
+msgid "Firearms"
+msgstr "Lőfegyverek"
+
+msgid "Access to firearm-related content is restricted to adults ({age}+) of legal age. Always comply with local laws and regulations."
+msgstr "A lőfegyverekkel kapcsolatos tartalomhoz csak nagykorúak férhetnek hozzá. Mindig tartsa be a helyi törvényeket és előírásokat."
+
+msgid "Gambling"
+msgstr "Szerencsejáték"
+
+msgid "Gambling is prohibited for minors ({age} év alatt) and may be subject to licensing rules. Gamble responsibly."
+msgstr "A szerencsejáték kiskorúak ({age} év alatt) számára tilos, és engedélyköteles lehet. Játsszon felelősséggel."
+
+msgid "Gaming"
+msgstr "Játék"
+
+msgid "Online gaming content may be restricted for minors ({age} év alatt) (e.g., playtime limits, age ratings, loot box rules)."
+msgstr "Az online játékok tartalma korlátozott lehet kiskorúak ({age} év alatt) számára (pl. játékidő korlátozása, korhatár besorolás, loot box szabályok)."
+
+msgid "Medication"
+msgstr "Gyógyszerek"
+
+msgid "This content concerns medication. Some products are restricted to adults ({age}+) and require prescriptions."
+msgstr "Ez a tartalom gyógyszerekre vonatkozik. Egyes termékek csak felnőttek ({age}+) számára érhetők el, és receptkötelesek lehetnek."
+
+msgid "Tobacco"
+msgstr "Dohány"
+
+msgid "The sale of tobacco to minors ({age} év alatt) is prohibited. Smoking harms your health."
+msgstr "Dohánytermékek értékesítése kiskorúak ({age} év alatt)nak tilos. A dohányzás súlyosan károsítja az egészséget."
+
+msgid "Violent or Sensitive Content"
+msgstr "Erőszakos vagy érzékeny tartalom"
+
+msgid "This content may include scenes of violence or sensitive material not suitable for minors ({age} év alatt)."
+msgstr "Ez a tartalom erőszakos vagy érzékeny jeleneteket tartalmazhat, amelyek nem alkalmasak kiskorúak ({age} év alatt) számára."
+
+msgid "Age Verification Required"
+msgstr "Korhatár ellenőrzés szükséges"
+
+msgid "Please select a preset or configure your age verification message."
+msgstr "Válasszon előre beállított sablont, vagy állítsa be saját korhatár-ellenőrző üzenetét."
+
+msgid "Configure your legal notice."
+msgstr "Állítsa be jogi nyilatkozatát."
+
+msgid "All age verification cookies have been invalidated. Users will be prompted again."
+msgstr "Az összes korhatár-ellenőrző süti érvénytelenítve lett. A felhasználók újra fel lesznek szólítva a megerősítésre."
+
+msgid "General"
+msgstr "Általános"
+
+msgid "Content"
+msgstr "Tartalom"
+
+msgid "Please select a preset or configure all content fields."
+msgstr "Válasszon előre beállított sablont, vagy állítsa be az összes tartalmi mezőt."
+
+msgid "Live Preview"
+msgstr "Élő előnézet"
+
+msgid "Preview updates as you modify settings."
+msgstr "A beállítások módosítása közben az előnézet frissül."
+
+msgid "Testing:"
+msgstr "Tesztelés:"
+
+msgid "For real-world testing, visit your website in a private/incognito browsing session."
+msgstr "Valós teszteléshez látogassa meg webhelyét privát/inkognitó módban."
+
+msgid "Developed with"
+msgstr "Fejlesztve szeretettel"
+
+msgid "by"
+msgstr "által"
+
+msgid "LRob, WordPress specialist"
+msgstr "LRob, WordPress szakértő"
+
+
+msgid "Warning:"
+msgstr "Figyelmeztetés:"
+
+msgid "This will invalidate all existing user validations. All visitors will see the age gate again."
+msgstr "Ez érvényteleníti az összes meglévő felhasználói megerősítést. Minden látogató újra látni fogja a korhatár-ellenőrzést."
+
+msgid "Are you sure? This will force all users to validate their age again."
+msgstr "Biztos benne? Ez minden felhasználót arra kényszerít, hogy újra megerősítse életkorát."
+
+msgid "Invalidate All Cookies"
+msgstr "Összes süti érvénytelenítése"
+
+msgid "\"Auto\" theme using detected theme colors. Preview may vary from frontend."
+msgstr "Az „Automatikus” téma az észlelt rendszer színeit használja. Az előnézet eltérhet a végleges megjelenéstől."
+
+msgid "\"Auto\" theme shown with fallback colors. Theme colors not detected."
+msgstr "Az „Automatikus” téma alapértelmezett színekkel jelenik meg. A téma színei nem észlelhetők."

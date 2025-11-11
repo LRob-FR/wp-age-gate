@@ -1,0 +1,289 @@
+# Copyright (C) 2025 LRob
+# This file is distributed under the same license as the LRob - Age Gate plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LRob Age Gate 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lrob-age-gate\n"
+"Last-Translator: ChatGPT <translations@openai.com>\n"
+"Language-Team: Čeština <cs@lrob.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-10T16:25:09+00:00\n"
+"PO-Revision-Date: 2025-11-10 20:15+0100\n"
+"Language: cs_CZ\n"
+"X-Generator: GPT-5\n"
+"X-Domain: lrob-age-gate\n"
+
+#. Plugin Name of the plugin
+msgid "LRob - Age Gate"
+msgstr "LRob - Ověření věku"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.lrob.fr/"
+msgstr "https://www.lrob.fr/"
+
+#. Description of the plugin
+msgid "Age verification gate with configurable presets for alcohol, adult content, and age-restricted products."
+msgstr "Systém pro ověření věku s přizpůsobitelnými přednastaveními pro alkohol, obsah pro dospělé a produkty s věkovým omezením."
+
+#. Author of the plugin
+msgid "LRob"
+msgstr "LRob"
+
+msgid "Age Gate"
+msgstr "Ověření věku"
+
+msgid "General Settings"
+msgstr "Obecná nastavení"
+
+msgid "Content & Messages"
+msgstr "Obsah a zprávy"
+
+msgid "Appearance"
+msgstr "Vzhled"
+
+msgid "Tools"
+msgstr "Nástroje"
+
+msgid "Enable Age Gate"
+msgstr "Povolit ověření věku"
+
+msgid "Cookie duration (days)"
+msgstr "Doba platnosti cookie (dny)"
+
+msgid "Quick Load"
+msgstr "Rychlé načtení"
+
+msgid "Minimum age"
+msgstr "Minimální věk"
+
+msgid "Title"
+msgstr "Nadpis"
+
+msgid "Message"
+msgstr "Zpráva"
+
+msgid "Legal notice"
+msgstr "Právní upozornění"
+
+msgid "Accept button"
+msgstr "Tlačítko Přijmout"
+
+msgid "Decline button"
+msgstr "Tlačítko Odmítnout"
+
+msgid "Decline redirect URL"
+msgstr "URL přesměrování po odmítnutí"
+
+msgid "Theme"
+msgstr "Motiv"
+
+msgid "Auto (follows system)"
+msgstr "Automaticky (dle systému)"
+
+msgid "Light"
+msgstr "Světlý"
+
+msgid "Dark"
+msgstr "Tmavý"
+
+msgid "Custom"
+msgstr "Vlastní"
+
+msgid "Background"
+msgstr "Pozadí"
+
+msgid "Text color"
+msgstr "Barva textu"
+
+msgid "Accept bg"
+msgstr "Pozadí tlačítka Přijmout"
+
+msgid "Accept text"
+msgstr "Text tlačítka Přijmout"
+
+msgid "Decline bg"
+msgstr "Pozadí tlačítka Odmítnout"
+
+msgid "Decline text"
+msgstr "Text tlačítka Odmítnout"
+
+msgid "Border radius (px)"
+msgstr "Poloměr rohů (px)"
+
+msgid "Backdrop blur (px)"
+msgstr "Rozmazání pozadí (px)"
+
+msgid "Invalidate all cookies"
+msgstr "Zneplatnit všechny cookies"
+
+msgid "Configure age verification behavior."
+msgstr "Nastavte chování ověření věku."
+
+msgid "Select a preset to quick-load a message template, then customize the fields as needed."
+msgstr "Vyberte přednastavení pro rychlé načtení šablony zprávy a poté přizpůsobte pole podle potřeby."
+
+msgid "Configuration Required:"
+msgstr "Je vyžadováno nastavení:"
+
+msgid "Please select a preset or configure all content fields below."
+msgstr "Vyberte přednastavení nebo nastavte všechna pole obsahu níže."
+
+msgid "Enable"
+msgstr "Povolit"
+
+msgid "-- Select Message --"
+msgstr "-- Vyberte zprávu --"
+
+msgid "-- Country --"
+msgstr "-- Země --"
+
+msgid "Load Preset"
+msgstr "Načíst přednastavení"
+
+msgid "Message template is universal. Country is used for decline URL only."
+msgstr "Šablona zprávy je univerzální. Země se používá pouze pro URL odmítnutí."
+
+msgid "Legal Disclaimer:"
+msgstr "Právní upozornění:"
+
+msgid "Laws vary by jurisdiction and change over time. You are responsible for ensuring compliance with your local regulations. Always consult legal counsel and adapt messages to your specific requirements."
+msgstr "Zákony se liší podle jurisdikce a mohou se časem měnit. Jste odpovědní za dodržování místních předpisů. Vždy se poraďte s právníkem a přizpůsobte text podle svých potřeb."
+
+msgid "Use {age} for minimum age."
+msgstr "Použijte {age} pro minimální věk."
+
+msgid "Unauthorized"
+msgstr "Neoprávněný přístup"
+
+msgid "Missing parameters"
+msgstr "Chybějící parametry"
+
+msgid "I confirm I am of legal age"
+msgstr "Potvrzuji, že jsem plnoletý podle platného zákona"
+
+msgid "I am not of legal age"
+msgstr "Nejsem plnoletý"
+
+msgid "Adult Content"
+msgstr "Obsah pro dospělé"
+
+msgid "Age Verification"
+msgstr "Ověření věku"
+
+msgid "You must be at least {age} years old to access this site. By entering, you confirm that you meet this age requirement."
+msgstr "Pro přístup na tento web musíte mít alespoň {age} let. Vstupem potvrzujete, že splňujete tuto věkovou podmínku."
+
+msgid "This content is restricted to adults ({age}+) only. Access by minors (under {age}) is prohibited."
+msgstr "Tento obsah je určen pouze pro dospělé (nad {age} let). Přístup nezletilých je zakázán."
+
+msgid "Alcohol"
+msgstr "Alkohol"
+
+msgid "The sale of alcohol to minors (under {age}) is prohibited. Alcohol abuse is dangerous for your health."
+msgstr "Prodej alkoholu osobám mladších než {age} let je zakázán. Nadměrné užívání alkoholu škodí zdraví."
+
+msgid "Cannabis / CBD"
+msgstr "Konopí / CBD"
+
+msgid "Access to cannabis-related content is restricted to adults ({age}+) where permitted by law."
+msgstr "Přístup k obsahu souvisejícímu s konopím je omezen pouze na dospělé, kde to zákon umožňuje."
+
+msgid "Firearms"
+msgstr "Střelné zbraně"
+
+msgid "Access to firearm-related content is restricted to adults ({age}+) of legal age. Always comply with local laws and regulations."
+msgstr "Přístup k obsahu týkajícímu se střelných zbraní je povolen pouze dospělým. Vždy dodržujte místní zákony a předpisy."
+
+msgid "Gambling"
+msgstr "Hazardní hry"
+
+msgid "Gambling is prohibited for minors (under {age}) and may be subject to licensing rules. Gamble responsibly."
+msgstr "Hazardní hry jsou zakázány pro nezletilé a mohou podléhat licenčním pravidlům. Hrajte zodpovědně."
+
+msgid "Gaming"
+msgstr "Hraní her"
+
+msgid "Online gaming content may be restricted for minors (under {age}) (e.g., playtime limits, age ratings, loot box rules)."
+msgstr "Obsah online her může být omezen pro nezletilé (pod {age} let) (např. časové limity, věkové hodnocení, pravidla pro loot boxy)."
+
+msgid "Medication"
+msgstr "Léky"
+
+msgid "This content concerns medication. Some products are restricted to adults ({age}+) and require prescriptions."
+msgstr "Tento obsah se týká léčiv. Některé produkty jsou dostupné pouze dospělým a vyžadují lékařský předpis."
+
+msgid "Tobacco"
+msgstr "Tabák"
+
+msgid "The sale of tobacco to minors (under {age}) is prohibited. Smoking harms your health."
+msgstr "Prodej tabáku osobám mladších než {age} let je zakázán. Kouření vážně poškozuje zdraví."
+
+msgid "Violent or Sensitive Content"
+msgstr "Násilný nebo citlivý obsah"
+
+msgid "This content may include scenes of violence or sensitive material not suitable for minors (under {age})."
+msgstr "Tento obsah může obsahovat scény násilí nebo citlivé materiály nevhodné pro nezletilé (pod {age} let)."
+
+msgid "Age Verification Required"
+msgstr "Vyžadováno ověření věku"
+
+msgid "Please select a preset or configure your age verification message."
+msgstr "Vyberte přednastavení nebo nastavte vlastní text ověření věku."
+
+msgid "Configure your legal notice."
+msgstr "Nastavte své právní upozornění."
+
+msgid "All age verification cookies have been invalidated. Users will be prompted again."
+msgstr "Všechny cookies pro ověření věku byly zneplatněny. Uživatelé budou znovu vyzváni k potvrzení."
+
+msgid "General"
+msgstr "Obecné"
+
+msgid "Content"
+msgstr "Obsah"
+
+msgid "Please select a preset or configure all content fields."
+msgstr "Vyberte přednastavení nebo nastavte všechna pole obsahu."
+
+msgid "Live Preview"
+msgstr "Živý náhled"
+
+msgid "Preview updates as you modify settings."
+msgstr "Zobrazit aktualizace při změně nastavení."
+
+msgid "Testing:"
+msgstr "Testování:"
+
+msgid "For real-world testing, visit your website in a private/incognito browsing session."
+msgstr "Pro testování v reálném prostředí navštivte svůj web v anonymním režimu."
+
+msgid "Developed with"
+msgstr "Vyvinuto s"
+
+msgid "by"
+msgstr "od"
+
+msgid "LRob, WordPress specialist"
+msgstr "LRob, specialista na WordPress"
+
+
+msgid "Warning:"
+msgstr "Upozornění:"
+
+msgid "This will invalidate all existing user validations. All visitors will see the age gate again."
+msgstr "Tímto budou zneplatněna všechna stávající ověření. Všichni návštěvníci uvidí ověření věku znovu."
+
+msgid "Are you sure? This will force all users to validate their age again."
+msgstr "Opravdu chcete pokračovat? Všichni uživatelé budou muset znovu potvrdit svůj věk."
+
+msgid "Invalidate All Cookies"
+msgstr "Zneplatnit všechny cookies"
+
+msgid "\"Auto\" theme using detected theme colors. Preview may vary from frontend."
+msgstr "Motiv „Automaticky“ používá zjištěné barvy systému. Náhled se může lišit od skutečného vzhledu."
+
+msgid "\"Auto\" theme shown with fallback colors. Theme colors not detected."
+msgstr "Motiv „Automaticky“ zobrazen s výchozími barvami. Barvy motivu nebyly zjištěny."

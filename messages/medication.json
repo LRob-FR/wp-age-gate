@@ -1,0 +1,8 @@
+{
+  "message_code": "medication",
+  "message_label": "Medication",
+  "min_age": 18,
+  "title": "Age Verification",
+  "message": "You must be at least {age} years old to access this site. By entering, you confirm that you meet this age requirement.",
+  "legal": "This content concerns medication. Some products are restricted to adults and require prescriptions."
+}

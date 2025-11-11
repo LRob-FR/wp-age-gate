@@ -1,0 +1,289 @@
+# Copyright (C) 2025 LRob
+# This file is distributed under the same license as the LRob - Age Gate plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LRob Age Gate 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lrob-age-gate\n"
+"Last-Translator: ChatGPT <translations@openai.com>\n"
+"Language-Team: Italiano <it@lrob.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-10T16:25:09+00:00\n"
+"PO-Revision-Date: 2025-11-10 18:20+0100\n"
+"Language: it_IT\n"
+"X-Generator: GPT-5\n"
+"X-Domain: lrob-age-gate\n"
+
+#. Plugin Name of the plugin
+msgid "LRob - Age Gate"
+msgstr "LRob - Verifica dell’età"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.lrob.fr/"
+msgstr "https://www.lrob.fr/"
+
+#. Description of the plugin
+msgid "Age verification gate with configurable presets for alcohol, adult content, and age-restricted products."
+msgstr "Sistema di verifica dell’età con impostazioni configurabili per alcolici, contenuti per adulti e prodotti soggetti a restrizioni di età."
+
+#. Author of the plugin
+msgid "LRob"
+msgstr "LRob"
+
+msgid "Age Gate"
+msgstr "Verifica dell’età"
+
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+msgid "Content & Messages"
+msgstr "Contenuto e messaggi"
+
+msgid "Appearance"
+msgstr "Aspetto"
+
+msgid "Tools"
+msgstr "Strumenti"
+
+msgid "Enable Age Gate"
+msgstr "Attiva la verifica dell’età"
+
+msgid "Cookie duration (days)"
+msgstr "Durata del cookie (giorni)"
+
+msgid "Quick Load"
+msgstr "Caricamento rapido"
+
+msgid "Minimum age"
+msgstr "Età minima"
+
+msgid "Title"
+msgstr "Titolo"
+
+msgid "Message"
+msgstr "Messaggio"
+
+msgid "Legal notice"
+msgstr "Avviso legale"
+
+msgid "Accept button"
+msgstr "Pulsante Accetta"
+
+msgid "Decline button"
+msgstr "Pulsante Rifiuta"
+
+msgid "Decline redirect URL"
+msgstr "URL di reindirizzamento in caso di rifiuto"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Auto (follows system)"
+msgstr "Automatico (segue il sistema)"
+
+msgid "Light"
+msgstr "Chiaro"
+
+msgid "Dark"
+msgstr "Scuro"
+
+msgid "Custom"
+msgstr "Personalizzato"
+
+msgid "Background"
+msgstr "Sfondo"
+
+msgid "Text color"
+msgstr "Colore del testo"
+
+msgid "Accept bg"
+msgstr "Sfondo pulsante Accetta"
+
+msgid "Accept text"
+msgstr "Testo pulsante Accetta"
+
+msgid "Decline bg"
+msgstr "Sfondo pulsante Rifiuta"
+
+msgid "Decline text"
+msgstr "Testo pulsante Rifiuta"
+
+msgid "Border radius (px)"
+msgstr "Raggio dei bordi (px)"
+
+msgid "Backdrop blur (px)"
+msgstr "Sfocatura dello sfondo (px)"
+
+msgid "Invalidate all cookies"
+msgstr "Invalida tutti i cookie"
+
+msgid "Configure age verification behavior."
+msgstr "Configura il comportamento della verifica dell’età."
+
+msgid "Select a preset to quick-load a message template, then customize the fields as needed."
+msgstr "Seleziona un’impostazione predefinita per caricare un modello di messaggio e personalizza i campi secondo necessità."
+
+msgid "Configuration Required:"
+msgstr "Configurazione richiesta:"
+
+msgid "Please select a preset or configure all content fields below."
+msgstr "Seleziona un’impostazione predefinita o configura tutti i campi di contenuto di seguito."
+
+msgid "Enable"
+msgstr "Attiva"
+
+msgid "-- Select Message --"
+msgstr "-- Seleziona messaggio --"
+
+msgid "-- Country --"
+msgstr "-- Paese --"
+
+msgid "Load Preset"
+msgstr "Carica impostazione predefinita"
+
+msgid "Message template is universal. Country is used for decline URL only."
+msgstr "Il modello di messaggio è universale. Il Paese è utilizzato solo per l’URL di rifiuto."
+
+msgid "Legal Disclaimer:"
+msgstr "Avvertenza legale:"
+
+msgid "Laws vary by jurisdiction and change over time. You are responsible for ensuring compliance with your local regulations. Always consult legal counsel and adapt messages to your specific requirements."
+msgstr "Le leggi variano a seconda della giurisdizione e possono cambiare nel tempo. È responsabilità dell’utente garantire la conformità alle normative locali. Consultare sempre un consulente legale e adattare i messaggi alle proprie esigenze specifiche."
+
+msgid "Use {age} for minimum age."
+msgstr "Utilizzare {age} per l’età minima."
+
+msgid "Unauthorized"
+msgstr "Non autorizzato"
+
+msgid "Missing parameters"
+msgstr "Parametri mancanti"
+
+msgid "I confirm I am of legal age"
+msgstr "Confermo di essere maggiorenne secondo la legge vigente"
+
+msgid "I am not of legal age"
+msgstr "Non sono maggiorenne"
+
+msgid "Adult Content"
+msgstr "Contenuti per adulti"
+
+msgid "Age Verification"
+msgstr "Verifica dell’età"
+
+msgid "You must be at least {age} years old to access this site. By entering, you confirm that you meet this age requirement."
+msgstr "Devi avere almeno {age} anni per accedere a questo sito. Entrando, confermi di soddisfare questo requisito di età."
+
+msgid "This content is restricted to adults only. Access by minors is prohibited."
+msgstr "Questo contenuto è riservato esclusivamente agli adulti. L’accesso ai minori è vietato."
+
+msgid "Alcohol"
+msgstr "Alcol"
+
+msgid "The sale of alcohol to minors is prohibited. Alcohol abuse is dangerous for your health."
+msgstr "La vendita di alcolici ai minori di {age} anni è vietata. L’abuso di alcol è pericoloso per la salute."
+
+msgid "Cannabis / CBD"
+msgstr "Cannabis / CBD"
+
+msgid "Access to cannabis-related content is restricted to adults where permitted by law."
+msgstr "L’accesso ai contenuti relativi alla cannabis è riservato agli adulti (oltre i {age} anni), ove consentito dalla legge."
+
+msgid "Firearms"
+msgstr "Armi da fuoco"
+
+msgid "Access to firearm-related content is restricted to adults of legal age. Always comply with local laws and regulations."
+msgstr "L’accesso ai contenuti relativi alle armi da fuoco è consentito solo ai persone di età superiore a {age} anni. Rispettare sempre le leggi e i regolamenti locali."
+
+msgid "Gambling"
+msgstr "Giochi d’azzardo"
+
+msgid "Gambling is prohibited for minors and may be subject to licensing rules. Gamble responsibly."
+msgstr "Il gioco d’azzardo è vietato ai minori di {age} anni e può essere soggetto a norme di licenza. Gioca responsabilmente."
+
+msgid "Gaming"
+msgstr "Videogiochi"
+
+msgid "Online gaming content may be restricted for minors (e.g., playtime limits, age ratings, loot box rules)."
+msgstr "I contenuti dei videogiochi online possono essere limitati ai minori (ad es. limiti di tempo di gioco, classificazioni per età, regole sui loot box)."
+
+msgid "Medication"
+msgstr "Medicinali"
+
+msgid "This content concerns medication. Some products are restricted to adults and require prescriptions."
+msgstr "Questo contenuto riguarda i medicinali. Alcuni prodotti sono riservati agli adulti (oltre i {age} anni) (oltre i {age} anni) e richiedono prescrizione medica."
+
+msgid "Tobacco"
+msgstr "Tabacco"
+
+msgid "The sale of tobacco to minors is prohibited. Smoking harms your health."
+msgstr "La vendita di tabacco ai minori di {age} anni è vietata. Il fumo nuoce gravemente alla salute."
+
+msgid "Violent or Sensitive Content"
+msgstr "Contenuti violenti o sensibili"
+
+msgid "This content may include scenes of violence or sensitive material not suitable for minors."
+msgstr "Questo contenuto può includere scene violente o materiali sensibili non adatti ai minori di {age} anni di {age} anni."
+
+msgid "Age Verification Required"
+msgstr "Verifica dell’età richiesta"
+
+msgid "Please select a preset or configure your age verification message."
+msgstr "Seleziona un’impostazione predefinita o configura il tuo messaggio di verifica dell’età."
+
+msgid "Configure your legal notice."
+msgstr "Configura il tuo avviso legale."
+
+msgid "All age verification cookies have been invalidated. Users will be prompted again."
+msgstr "Tutti i cookie di verifica dell’età sono stati invalidati. Gli utenti dovranno confermare nuovamente la propria età."
+
+msgid "General"
+msgstr "Generale"
+
+msgid "Content"
+msgstr "Contenuto"
+
+msgid "Please select a preset or configure all content fields."
+msgstr "Seleziona un’impostazione predefinita o configura tutti i campi di contenuto."
+
+msgid "Live Preview"
+msgstr "Anteprima in tempo reale"
+
+msgid "Preview updates as you modify settings."
+msgstr "Visualizza le modifiche in tempo reale mentre aggiorni le impostazioni."
+
+msgid "Testing:"
+msgstr "Test:"
+
+msgid "For real-world testing, visit your website in a private/incognito browsing session."
+msgstr "Per un test reale, visita il tuo sito web in modalità privata/incognito."
+
+msgid "Developed with"
+msgstr "Sviluppato con"
+
+msgid "by"
+msgstr "da"
+
+msgid "LRob, WordPress specialist"
+msgstr "LRob, specialista WordPress"
+
+
+msgid "Warning:"
+msgstr "Avviso:"
+
+msgid "This will invalidate all existing user validations. All visitors will see the age gate again."
+msgstr "Ciò invaliderà tutte le verifiche esistenti. Tutti i visitatori dovranno confermare nuovamente la propria età."
+
+msgid "Are you sure? This will force all users to validate their age again."
+msgstr "Sei sicuro? Questo obbligherà tutti gli utenti a confermare di nuovo la propria età."
+
+msgid "Invalidate All Cookies"
+msgstr "Invalida tutti i cookie"
+
+msgid "\"Auto\" theme using detected theme colors. Preview may vary from frontend."
+msgstr "Tema \"Automatico\" che utilizza i colori rilevati del sistema. L’anteprima può variare rispetto al front-end."
+
+msgid "\"Auto\" theme shown with fallback colors. Theme colors not detected."
+msgstr "Tema \"Automatico\" mostrato con colori di riserva. I colori del tema non sono stati rilevati."
