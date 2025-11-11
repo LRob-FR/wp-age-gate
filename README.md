@@ -195,7 +195,7 @@ Decline URLs are configured in `/messages/decline_urls.json`:
 
 ## Support
 
-For support, please contact [LRob directly](https://www.lrob.fr/contact/)
+For support, please [open an issue](https://github.com/LRob-FR/wp-age-gate/issues) or [contact LRob directly](https://www.lrob.fr/contact/)
 
 ## Credits
 

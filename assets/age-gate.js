@@ -22,7 +22,7 @@
   }
 
   function showGate() {
-    var gate = document.getElementById('lrob-agegate');
+    var gate = document.getElementById('lrob-age-gate');
     if (!gate) return;
     var opts = window.LROB_AGEGATE_OPTS || {};
 
