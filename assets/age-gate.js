@@ -44,7 +44,7 @@
     if (dialog) dialog.focus();
 
     btnOk.addEventListener('click', function(){
-      setCookie('lrob_age_verified', '1', opts.cookieDays || 30);
+      setCookie('lrob_age_verified', '1:' + (opts.token || ''), opts.cookieDays || 30);
       gate.style.display = 'none';
       document.documentElement.classList.remove('lrob-age-gate-open');
     });
@@ -79,7 +79,21 @@
   }
 
   document.addEventListener('DOMContentLoaded', function(){
-    if (getCookie('lrob_age_verified') === '1') return;
+    var cookie = getCookie('lrob_age_verified');
+    if (cookie) {
+      // Old format: just "1"
+      if (cookie === '1') return;
+
+      // New format: "1:token"
+      var parts = cookie.split(':');
+      if (parts.length === 2 && parts[0] === '1') {
+        var cookieToken = parts[1];
+        var currentToken = window.LROB_AGEGATE_OPTS && window.LROB_AGEGATE_OPTS.token || '';
+        if (cookieToken === currentToken) {
+          return; // Valid cookie with matching token
+        }
+      }
+    }
     showGate();
   });
 })();

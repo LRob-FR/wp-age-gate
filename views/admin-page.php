@@ -148,7 +148,7 @@ if ( function_exists( 'wp_get_global_settings' ) ) {
     <div class="lrob-warning">
         <p><strong><?php esc_html_e( 'Warning:', 'lrob-age-gate' ); ?></strong> <?php esc_html_e( 'This will invalidate all existing user validations. All visitors will see the age gate again.', 'lrob-age-gate' ); ?></p>
     </div>
-    <form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>" style="margin-top:10px" onsubmit="document.cookie='lrob_age_verified=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/;';">
+    <form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>" style="margin-top:10px">
         <?php wp_nonce_field( 'lrob_invalidate_cookies', 'lrob_nonce' ); ?>
         <input type="hidden" name="action" value="lrob_invalidate_cookies">
         <button type="submit" class="button button-secondary" onclick="return confirm('<?php esc_attr_e( 'Are you sure? This will force all users to validate their age again.', 'lrob-age-gate' ); ?>')">

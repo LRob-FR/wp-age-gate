@@ -60,7 +60,8 @@ function lrob_agegate_activate() {
         'btn_accept_bg' => '#111111',
         'btn_accept_text' => '#ffffff',
         'btn_decline_bg' => '#f7f7f7',
-        'btn_decline_text' => '#111111'
+        'btn_decline_text' => '#111111',
+        'token' => time() // Invalidation token
     );
 
     // Merge existing options with defaults (adds new fields on upgrade)

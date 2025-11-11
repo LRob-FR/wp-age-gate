@@ -20,7 +20,35 @@ class LRob_AgeGate_Frontend {
 
         if ( empty( $opts['enabled'] ) ) return false;
         if ( $this->is_bot() ) return false;
-        if ( isset( $_COOKIE['lrob_age_verified'] ) && $_COOKIE['lrob_age_verified'] === '1' ) return false;
+
+        // Initialize token if it doesn't exist (for existing installs)
+        if ( ! isset( $opts['token'] ) ) {
+            $opts['token'] = time();
+            update_option( $this->option_key, $opts );
+        }
+
+        // Check cookie exists and token matches
+        if ( isset( $_COOKIE['lrob_age_verified'] ) ) {
+            $cookie_value = $_COOKIE['lrob_age_verified'];
+
+            // Handle old cookie format (backward compatibility)
+            if ( $cookie_value === '1' ) {
+                // Upgrade old cookie to new format with current token
+                return false;
+            }
+
+            // Handle new token format
+            $cookie_parts = explode( ':', $cookie_value );
+            if ( count( $cookie_parts ) === 2 && $cookie_parts[0] === '1' ) {
+                $cookie_token = $cookie_parts[1];
+                $current_token = (string) $opts['token'];
+
+                if ( $cookie_token === $current_token ) {
+                    return false; // Valid cookie
+                }
+                // Token mismatch = invalidated = show gate
+            }
+        }
 
         return true;
     }
@@ -57,7 +85,8 @@ class LRob_AgeGate_Frontend {
             'accept' => ! empty( $opts['accept_label'] ) ? $opts['accept_label'] : __( 'I confirm I am of legal age', 'lrob-age-gate' ),
             'decline' => ! empty( $opts['decline_label'] ) ? $opts['decline_label'] : __( 'I am not of legal age', 'lrob-age-gate' ),
             'declineUrl' => esc_url( $opts['decline_url'] ?? 'about:blank' ),
-            'cookieDays' => intval( $opts['cookie_days'] ?? 30 )
+            'cookieDays' => intval( $opts['cookie_days'] ?? 30 ),
+            'token' => (string) $opts['token'] // Token is always set by should_show()
         ) );
     }
 

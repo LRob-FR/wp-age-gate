@@ -47,7 +47,13 @@ class LRob_AgeGate_Admin {
                     \$colorRows.show();
                     \$colorInputs.each(function() {
                         if (!$(this).hasClass('wp-color-picker')) {
-                            $(this).wpColorPicker();
+                            var \$input = $(this);
+                            \$input.wpColorPicker({
+                                change: function(event, ui) {
+                                    // Update input value and trigger preview update
+                                    \$input.val(ui.color.toString()).trigger('input');
+                                }
+                            });
                         }
                     });
                 } else {
@@ -242,7 +248,11 @@ class LRob_AgeGate_Admin {
 
         check_admin_referer( 'lrob_invalidate_cookies', 'lrob_nonce' );
 
-        // Cookie cleared client-side via JS, this is just for confirmation
+        // Change token to invalidate all existing cookies globally
+        $opts = get_option( $this->option_key, array() );
+        $opts['token'] = time();
+        update_option( $this->option_key, $opts );
+
         wp_redirect( add_query_arg( array(
             'page' => 'lrob-age-gate',
             'invalidated' => '1'
