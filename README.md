@@ -31,10 +31,13 @@ A professional WordPress age verification plugin with pre-configured presets for
 
 ## Installation
 
-1. Download the latest release ZIP
+1. Download the latest release ZIP from [git.lrob.net/WP/age-gate/releases](https://git.lrob.net/WP/age-gate/releases)
 2. Upload to WordPress via Plugins → Add New → Upload Plugin
 3. Activate the plugin
 4. Configure via Settings → Age Gate
+
+From 1.0.1 on, the plugin updates itself: new versions show up under Plugins and
+Dashboard → Updates like any other plugin, straight from this repository.
 
 ## Usage
 
@@ -195,7 +198,7 @@ Decline URLs are configured in `/messages/decline_urls.json`:
 
 ## Support
 
-For support, please [open an issue](https://github.com/LRob-FR/wp-age-gate/issues) or [contact LRob directly](https://www.lrob.fr/contact/)
+For support, please [open an issue](https://git.lrob.net/WP/age-gate/issues) or [contact LRob directly](https://www.lrob.fr/contact/)
 
 ## Credits
 
@@ -222,6 +225,10 @@ along with this program; if not, see <https://www.gnu.org/licenses/>.
 For more details, see [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html).
 
 ## Changelog
+
+### 1.0.1
+- **Automatic updates**: the plugin now updates itself from the WordPress dashboard. New versions appear under Plugins and Dashboard → Updates, like any other plugin.
+- Development moved to [git.lrob.net/WP/age-gate](https://git.lrob.net/WP/age-gate) — issues and releases live there from now on.
 
 ### 1.0.0 - Initial Release
 - Age verification modal with cookie-based memory

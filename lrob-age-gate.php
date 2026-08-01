@@ -3,9 +3,10 @@
  * Plugin Name: LRob - Age Gate
  * Plugin URI: https://www.lrob.fr/
  * Description: Age verification gate with configurable presets for alcohol, adult content, and age-restricted products.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: LRob
  * Author URI: https://www.lrob.fr/
+ * Update URI: https://git.lrob.net/WP/age-gate
  * Text Domain: lrob-age-gate
  * Domain Path: /languages
  * License: GPLv2 or later
@@ -16,10 +17,13 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-define( 'LROB_AGEGATE_VERSION', '1.0.0' );
+define( 'LROB_AGEGATE_VERSION', '1.0.1' );
 define( 'LROB_AGEGATE_FILE', __FILE__ );
 define( 'LROB_AGEGATE_PATH', plugin_dir_path( __FILE__ ) );
 define( 'LROB_AGEGATE_URL', plugin_dir_url( __FILE__ ) );
+define( 'LROB_AGEGATE_BASENAME', plugin_basename( __FILE__ ) );
+define( 'LROB_AGEGATE_REPO_URL', 'https://git.lrob.net/WP/age-gate' );
+define( 'LROB_AGEGATE_ISSUES_URL', LROB_AGEGATE_REPO_URL . '/issues' );
 
 // Load translations
 add_action( 'plugins_loaded', 'lrob_agegate_load_textdomain' );
@@ -27,6 +31,11 @@ add_action( 'plugins_loaded', 'lrob_agegate_load_textdomain' );
 function lrob_agegate_load_textdomain() {
     load_plugin_textdomain( 'lrob-age-gate', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 }
+
+// Self-hosted updater — registered in every context, the update check also runs
+// from wp-cron.
+require_once LROB_AGEGATE_PATH . 'includes/class-updater.php';
+( new LRob_AgeGate_Updater() )->register();
 
 // Load appropriate class based on context
 if ( is_admin() ) {
